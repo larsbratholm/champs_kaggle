@@ -17,3 +17,9 @@ The [gaussian_input_files](./gaussian_input_files) is the target directory for t
 [molecules_with_outliers.txt](./molecules_with_outliers.txt) contain the list of molecules that were excluded from the QM9 superset as the scalar coupling constants contained one or more outliers.
 
 The [outlier_structures](./outlier_structures) folder contains the structures listed in [molecules_with_outliers.txt](./molecules_with_outliers.txt) in xyz format.
+
+[training_molecules.txt](./training_molecules.txt) contain the list of molecules that form the training set.
+
+[testing_molecules.txt](./testing_molecules.txt) contain the list of molecules that form the testing set.
+
+[create_dataset.py](./create_dataset.py) parses the Gaussian output files from NMR computations and creates the dataset in csv format. Requires that `gaussian_output_files.tar.gz` has been downloaded in advance.

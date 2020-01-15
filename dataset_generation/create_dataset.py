@@ -267,9 +267,8 @@ def parse_data():
 
     atomnumber_to_letter = {1:"H", 6:"C", 7:"N", 8:"O", 9:"F"}
 
-    #TODO fix hard link
-    ignored_structures = np.concatenate([np.loadtxt('../molecules_without_hydrogens.txt', dtype=str),
-                                         np.loadtxt('../molecules_with_outliers.txt', dtype=str)])
+    ignored_structures = np.concatenate([np.loadtxt('molecules_without_hydrogens.txt', dtype=str),
+                                         np.loadtxt('molecules_with_outliers.txt', dtype=str)])
 
     # Get script location
     script_dir = os.path.abspath(os.path.dirname(__file__))
@@ -442,15 +441,12 @@ def process_and_write(set_train, set_test, data, basename, sort_idx, idx):
     np.savetxt(basename + "_train.csv", train, delimiter=',', fmt='%s')
     np.savetxt(basename + "_test.csv", test, delimiter=',', fmt='%s')
 
-
-
 def create_dataset():
     """
     Write csv files for the Kaggle dataset
     """
     data, contrib, pot, shield, mulliken, dipole, coords = parse_data()
 
-    #TODO fix hard links
     # Get training and test molecules
     train_mols = np.loadtxt('training_molecules.txt', dtype=str)
     test_mols = np.loadtxt('testing_molecules.txt', dtype=str)
@@ -476,36 +472,5 @@ def consistency_check(filename):
         return False
     return True
 
-#TODO remove outliers etc.
-
 if __name__ == "__main__":
-    #xyz_folder = "/home/lb17101/dev/qm9_nmr/xyz/"
-    #output_folder = "dataset/"
     create_dataset()
-
-
-    #d = {}
-    #atomnumber_to_name = {1:"H", 6:"C", 7:"N", 9:"F"}
-    #empty = 0
-    #for filename in filenames:
-    #    output = make_jxyz_nmrlog(filename, "qm9")
-    #    if sum(output) == 0:
-    #        print(filename)
-    #        empty += 1
-    #        continue
-    #    c = 0
-    #    for i in (1,2,3):
-    #        for j in (1,6,7,9):
-    #            if i == 1 and j in [1,9]:
-    #                continue
-    #            key = "%dJ-H%s" % (i, atomnumber_to_name[j])
-    #            if key not in d: d[key] = []
-    #            d[key].append(output[c])
-    #            c += 1
-
-    #print(len(filenames))
-    #all_ = np.zeros(len(filenames) - empty, dtype=int)
-    #for key, value in d.items():
-    #    print(key, np.mean(d[key]), np.min(d[key]), np.max(d[key]))
-    #    all_ += np.asarray(value)
-    #print("all", np.mean(all_), np.min(all_), np.max(all_))

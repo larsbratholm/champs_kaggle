@@ -9,3 +9,5 @@ $DIR/download_qm9_exyz.sh
 $DIR/download_xyz_files.sh
 # Run gaussian_input_files.tar.gz download script
 $DIR/download_gaussian_input_files.sh
+# Run gaussian_output_files.tar.gz download script
+$DIR/download_gaussian_output_files.sh
