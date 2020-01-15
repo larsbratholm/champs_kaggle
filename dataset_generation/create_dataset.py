@@ -275,13 +275,13 @@ def parse_data():
 
     # Read the tar file containing all the log files
     try:
-        log_tar = tarfile.open(script_dir + "/gaussian_output_files.tar.gz", "r:gz")
+        log_tar = tarfile.open(script_dir + "/data/gaussian_output_files.tar.gz", "r:gz")
     except FileNotFoundError:
         print("gaussian_output_files.tar.gz not found.")
         quit()
     # Read the tar file containing all the xyz files
     try:
-        xyz_tar = tarfile.open(script_dir + "/../data/xyz_files.tar.gz", "r:gz")
+        xyz_tar = tarfile.open(script_dir + "/data/xyz_files.tar.gz", "r:gz")
     except FileNotFoundError:
         print("xyz_files.tar.gz not found.")
         quit()
