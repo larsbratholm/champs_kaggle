@@ -440,6 +440,9 @@ def process_and_write(set_train, set_test, data, basename, sort_idx, idx):
     # Write
     np.savetxt(basename + "_train.csv", train, delimiter=',', fmt='%s')
     np.savetxt(basename + "_test.csv", test, delimiter=',', fmt='%s')
+    # Write masked version for the target
+    if basename == 'data':
+        np.savetxt(basename + "_test_masked.csv", test[:,:-1], delimiter=',', fmt='%s')
 
 def create_dataset():
     """
