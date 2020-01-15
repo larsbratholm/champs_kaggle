@@ -286,11 +286,7 @@ def parse_data():
         print("xyz_files.tar.gz not found.")
         quit()
 
-    c = 0
     for member in log_tar.getmembers():
-        c += 1
-        if c >= 50:
-            break
         if member.isfile():
             basename = member.name.split("/")[-1].split(".")[0]
             if basename in ignored_structures:
