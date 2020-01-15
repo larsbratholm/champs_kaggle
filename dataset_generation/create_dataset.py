@@ -252,7 +252,7 @@ def jread_dso(lines, atomnumber):
                 couplings[index_j, index_i] = coupling
     return couplings
 
-def parse_data():
+def parse_data(script_dir):
     """
     Parse the gaussian output files and xyz files.
     """
@@ -269,9 +269,6 @@ def parse_data():
 
     ignored_structures = np.concatenate([np.loadtxt('molecules_without_hydrogens.txt', dtype=str),
                                          np.loadtxt('molecules_with_outliers.txt', dtype=str)])
-
-    # Get script location
-    script_dir = os.path.abspath(os.path.dirname(__file__))
 
     # Read the tar file containing all the log files
     try:
@@ -405,7 +402,7 @@ def add_index_and_header(header, train, test, idx):
 
     return train_index, test_index
 
-def process_and_write(set_train, set_test, data, basename, sort_idx, idx):
+def process_and_write(set_train, set_test, data, script_dir, basename, sort_idx, idx):
     """
     Splits a csv file into sorted and indexed train and test files.
     """
@@ -434,42 +431,33 @@ def process_and_write(set_train, set_test, data, basename, sort_idx, idx):
     sort_data(test, sort_idx)
     train, test = add_index_and_header(header, train, test, idx)
     # Write
-    np.savetxt(basename + "_train.csv", train, delimiter=',', fmt='%s')
-    np.savetxt(basename + "_test.csv", test, delimiter=',', fmt='%s')
+    np.savetxt(script_dir + "/kaggle_dataset/" + basename + "_train.csv", train, delimiter=',', fmt='%s')
+    np.savetxt(script_dir + "/kaggle_dataset/" + basename + "_test.csv", test, delimiter=',', fmt='%s')
     # Write masked version for the target
     if basename == 'data':
-        np.savetxt(basename + "_test_masked.csv", test[:,:-1], delimiter=',', fmt='%s')
+        np.savetxt(script_dir + "/kaggle_dataset/" + basename + "_test_masked.csv", test[:,:-1], delimiter=',', fmt='%s')
 
 def create_dataset():
     """
     Write csv files for the Kaggle dataset
     """
-    data, contrib, pot, shield, mulliken, dipole, coords = parse_data()
+    # Get script location
+    script_dir = os.path.abspath(os.path.dirname(__file__))
+
+    data, contrib, pot, shield, mulliken, dipole, coords = parse_data(script_dir)
 
     # Get training and test molecules
-    train_mols = np.loadtxt('training_molecules.txt', dtype=str)
-    test_mols = np.loadtxt('testing_molecules.txt', dtype=str)
+    train_mols = np.loadtxt(script_dir + '/training_molecules.txt', dtype=str)
+    test_mols = np.loadtxt(script_dir + '/testing_molecules.txt', dtype=str)
 
     # Split the data into train and test, change sorting, add index column if needed and write the csv files
-    process_and_write(train_mols, test_mols, data, 'data', [2,1,0], idx=True)
-    process_and_write(train_mols, test_mols, contrib, 'scalar_coupling_contributions', [2,1,0], idx=False)
-    process_and_write(train_mols, test_mols, pot, 'potential_energy', [0], idx=False)
-    process_and_write(train_mols, test_mols, shield, 'magnetic_shielding_tensors', [1,0], idx=False)
-    process_and_write(train_mols, test_mols, mulliken, 'mulliken_charges', [1,0], idx=False)
-    process_and_write(train_mols, test_mols, dipole, 'dipole_moments', [0], idx=False)
-    process_and_write(train_mols, test_mols, coords, 'structures', [0], idx=False)
-
-def consistency_check(filename):
-    with open(filename) as f:
-        lines = f.readlines()
-
-    inchi1, inchi2 = lines[-1].split()
-    if inchi1 != inchi2:
-        return False
-    smiles1, smiles2 = lines[-2].split()
-    if smiles1 != smiles2:
-        return False
-    return True
+    process_and_write(train_mols, test_mols, data, script_dir, 'data', [2,1,0], idx=True)
+    process_and_write(train_mols, test_mols, contrib, script_dir, 'scalar_coupling_contributions', [2,1,0], idx=False)
+    process_and_write(train_mols, test_mols, pot, script_dir, 'potential_energy', [0], idx=False)
+    process_and_write(train_mols, test_mols, shield, script_dir, 'magnetic_shielding_tensors', [1,0], idx=False)
+    process_and_write(train_mols, test_mols, mulliken, script_dir, 'mulliken_charges', [1,0], idx=False)
+    process_and_write(train_mols, test_mols, dipole, script_dir, 'dipole_moments', [0], idx=False)
+    process_and_write(train_mols, test_mols, coords, script_dir, 'structures', [0], idx=False)
 
 if __name__ == "__main__":
     create_dataset()
