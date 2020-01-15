@@ -358,9 +358,24 @@ def parse_data(script_dir):
                 atype = atomnumber_to_letter[atom_types[j]]
                 coords.append([basename, i, atype] + ["%.9f" % value for value in atom.coords])
 
+    # The size in memory is a bit much, so try to avoid too many copies
+    data_array = np.asarray(data)
+    del data
+    contrib_array = np.asarray(contrib)
+    del contrib
+    pot_array = np.asarray(pot)
+    del pot
+    shield_array = np.asarray(shield)
+    del shield
+    mulliken_array = np.asarray(mulliken)
+    del mulliken
+    dipole_array = np.asarray(dipole)
+    del dipole
+    coords_array = np.asarray(coords)
+    del coords
 
-    return np.asarray(data), np.asarray(contrib), np.asarray(pot), np.asarray(shield), \
-            np.asarray(mulliken), np.asarray(dipole), np.asarray(coords)
+    return data_array, contrib_array, pot_array, shield_array, mulliken_array, \
+            dipole_array, coords_array
 
 def sort_data(data, sort_idx):
     """
@@ -451,13 +466,20 @@ def create_dataset():
     test_mols = np.loadtxt(script_dir + '/testing_molecules.txt', dtype=str)
 
     # Split the data into train and test, change sorting, add index column if needed and write the csv files
-    process_and_write(train_mols, test_mols, data, script_dir, 'data', [2,1,0], idx=True)
-    process_and_write(train_mols, test_mols, contrib, script_dir, 'scalar_coupling_contributions', [2,1,0], idx=False)
+    # Prevent some extra copies by cleaning up along the way and doing the big arrays last
     process_and_write(train_mols, test_mols, pot, script_dir, 'potential_energy', [0], idx=False)
+    del pot
     process_and_write(train_mols, test_mols, shield, script_dir, 'magnetic_shielding_tensors', [1,0], idx=False)
+    del shield
     process_and_write(train_mols, test_mols, mulliken, script_dir, 'mulliken_charges', [1,0], idx=False)
+    del mulliken
     process_and_write(train_mols, test_mols, dipole, script_dir, 'dipole_moments', [0], idx=False)
+    del dipole
     process_and_write(train_mols, test_mols, coords, script_dir, 'structures', [0], idx=False)
+    del coords
+    process_and_write(train_mols, test_mols, data, script_dir, 'data', [2,1,0], idx=True)
+    del data
+    process_and_write(train_mols, test_mols, contrib, script_dir, 'scalar_coupling_contributions', [2,1,0], idx=False)
 
 if __name__ == "__main__":
     create_dataset()
