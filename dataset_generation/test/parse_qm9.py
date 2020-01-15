@@ -290,12 +290,11 @@ def parse_data():
     c = 0
     for member in log_tar.getmembers():
         c += 1
-        if c >= 10:
+        if c >= 50:
             break
         if member.isfile():
             basename = member.name.split("/")[-1].split(".")[0]
             if basename in ignored_structures:
-                print("ignored", basename)
                 continue
             with log_tar.extractfile(member) as f:
                 # tarfile doesn't decode the object, so just do it manually
@@ -337,45 +336,133 @@ def parse_data():
                     if conn_dist[i,j] == 0 or conn_dist[i,j] > 3:
                         continue
 
-                    ctype = str(conn_dist) + "JH" + atype
+                    ctype = str(conn_dist[i,j]) + "JH" + atype
 
-                    data.append([basename, i, j, ctype, j_array[i, j]])
-                    contrib.append([basename, i, j, ctype, j_array_fc[i, j], j_array_sd[i, j], j_array_pso[i, j], j_array_dso[i, j]])
+                    data.append([basename, i, j, ctype, "%.6f" % j_array[i, j]])
+                    contrib.append([basename, i, j, ctype, "%.6f" % j_array_fc[i, j], "%.6f" % j_array_sd[i, j], \
+                            "%.6f" % j_array_pso[i, j], "%.6f" % j_array_dso[i, j]])
 
             #TODO remove
-            if len(atom1_loc) == 0 or len(atom2_loc) == len(atom1_loc):
+            if len(atom1_loc) == 0 or (len(atom2_loc) == 1 and len(atom1_loc) == 1):
                 print("No couplings in:", basename)
                 continue
 
+            # Parse remaining data types
             potential_energy = read_potential_energy(log_lines, basename)
-            pot.append([basename, potential_energy])
+            pot.append([basename, "%.7f" % potential_energy])
 
             shielding_tensor = read_magnetic_shielding_tensor(log_lines, basename)
             for i in range(n_atoms):
-                shield.append([basename, i] + shielding_tensor[i].tolist())
+                shield.append([basename, i] + ["%.4f" % value for value in shielding_tensor[i]])
 
             mulliken_charges = read_mulliken_charges(log_lines, basename)
             for i in range(n_atoms):
-                mulliken.append([basename, i, mulliken_charges[i]])
+                mulliken.append([basename, i, "%.6f" % mulliken_charges[i]])
 
             dipole_moment = read_dipole_moment(log_lines, basename)
-            for i in range(n_atoms):
-                dipole.append([basename, i] + dipole_moment.tolist())
+            dipole.append([basename] + ["%.4f" % value for value in dipole_moment])
 
             for i, atom in enumerate(mol):
                 atype = atomnumber_to_letter[atom_types[j]]
-                coords.append([basename, i, atype] + list(atom.coords))
+                coords.append([basename, i, atype] + ["%.9f" % value for value in atom.coords])
 
 
-    return data, contrib, pot, shield, mulliken, dipole, coords
+    return np.asarray(data), np.asarray(contrib), np.asarray(pot), np.asarray(shield), \
+            np.asarray(mulliken), np.asarray(dipole), np.asarray(coords)
+
+def sort_data(data, sort_idx):
+    """
+    Sort the data array according to the given order of indices
+    """
+    for idx in sort_idx:
+        if "." in data[0,idx]:
+            type_ = float
+        else:
+            try:
+                int(data[0,idx])
+                type_ = int
+            except:
+                type_ = str
+        subarray = data[:,idx].astype(type_)
+        # Mergesort preserves order
+        order = np.argsort(subarray, kind='mergesort')
+        data[:] = data[order]
+
+def add_index_and_header(header, train, test, idx):
+    """
+    Add id column and header
+    """
+
+    train_index = np.empty((train.shape[0] + 1, train.shape[1] + int(idx)), dtype='<U32')
+    test_index = np.empty((test.shape[0] + 1, test.shape[1] + int(idx)), dtype='<U32')
+
+    train_index[0] = np.asarray(header.split(","), dtype='<U32')
+    test_index[0] = train_index[0]
+
+    if idx:
+        train_index[1:,0] = np.arange(train.shape[0])
+        test_index[1:,0] = np.arange(train.shape[0], train.shape[0] + test.shape[0])
+        train_index[1:,1:] = train
+        test_index[1:,1:] = test
+    else:
+        train_index[1:] = train
+        test_index[1:] = test
+
+    return train_index, test_index
+
+def process_and_write(set_train, set_test, data, basename, sort_idx, idx):
+    """
+    Splits a csv file into sorted and indexed train and test files.
+    """
+
+    if basename == 'data':
+        header = "id,molecule_name,atom_index_0,atom_index_1,type,scalar_coupling_constant"
+    elif basename == 'scalar_coupling_contributions':
+        header = "molecule_name,atom_index_0,atom_index_1,type,fc,sd,pso,dso"
+    elif basename == "potential_energy":
+        header = "molecule_name,potential_energy"
+    elif basename == "magnetic_shielding_tensors":
+        header = "molecule_name,atom_index,XX,YX,ZX,XY,YY,ZY,XZ,YZ,ZZ"
+    elif basename == "mulliken_charges":
+        header = "molecule_name,atom_index,mulliken_charge"
+    elif basename == "dipole_moments":
+        header = "molecule_name,X,Y,Z"
+    elif basename == "structures":
+        header = "molecule_name,atom_index,atom,x,y,z"
+    else:
+        print("Unknown basename:", basename)
+        quit()
+
+    train = data[np.isin(data[:,0], set_train)]
+    test = data[np.isin(data[:,0], set_test)]
+    sort_data(train, sort_idx)
+    sort_data(test, sort_idx)
+    train, test = add_index_and_header(header, train, test, idx)
+    # Write
+    np.savetxt(basename + "_train.csv", train, delimiter=',', fmt='%s')
+    np.savetxt(basename + "_test.csv", test, delimiter=',', fmt='%s')
+
+
 
 def create_dataset():
     """
-    Create the Kaggle dataset
+    Write csv files for the Kaggle dataset
     """
     data, contrib, pot, shield, mulliken, dipole, coords = parse_data()
-    print(pot)
-    #write_data()
+
+    #TODO fix hard links
+    # Get training and test molecules
+    train_mols = np.loadtxt('training_molecules.txt', dtype=str)
+    test_mols = np.loadtxt('testing_molecules.txt', dtype=str)
+
+    # Split the data into train and test, change sorting, add index column if needed and write the csv files
+    process_and_write(train_mols, test_mols, data, 'data', [2,1,0], idx=True)
+    process_and_write(train_mols, test_mols, contrib, 'scalar_coupling_contributions', [2,1,0], idx=False)
+    process_and_write(train_mols, test_mols, pot, 'potential_energy', [0], idx=False)
+    process_and_write(train_mols, test_mols, shield, 'magnetic_shielding_tensors', [1,0], idx=False)
+    process_and_write(train_mols, test_mols, mulliken, 'mulliken_charges', [1,0], idx=False)
+    process_and_write(train_mols, test_mols, dipole, 'dipole_moments', [0], idx=False)
+    process_and_write(train_mols, test_mols, coords, 'structures', [0], idx=False)
 
 def consistency_check(filename):
     with open(filename) as f:
