@@ -330,9 +330,9 @@ def parse_data(script_dir):
 
                     ctype = str(conn_dist[i,j]) + "JH" + atype
 
-                    data.append([basename, i, j, ctype, "%.6f" % j_array[i, j]])
-                    contrib.append([basename, i, j, ctype, "%.6f" % j_array_fc[i, j], "%.6f" % j_array_sd[i, j], \
-                            "%.6f" % j_array_pso[i, j], "%.6f" % j_array_dso[i, j]])
+                    data.append(np.asarray([basename, i, j, ctype, "%.6f" % j_array[i, j]]))
+                    contrib.append(np.asarray([basename, i, j, ctype, "%.6f" % j_array_fc[i, j], "%.6f" % j_array_sd[i, j], \
+                            "%.6f" % j_array_pso[i, j], "%.6f" % j_array_dso[i, j]]))
 
             #TODO remove
             if len(atom1_loc) == 0 or (len(atom2_loc) == 1 and len(atom1_loc) == 1):
@@ -341,38 +341,33 @@ def parse_data(script_dir):
 
             # Parse remaining data types
             potential_energy = read_potential_energy(log_lines, basename)
-            pot.append([basename, "%.7f" % potential_energy])
+            pot.append(np.asarray([basename, "%.7f" % potential_energy]))
 
             shielding_tensor = read_magnetic_shielding_tensor(log_lines, basename)
             for i in range(n_atoms):
-                shield.append([basename, i] + ["%.4f" % value for value in shielding_tensor[i]])
+                shield.append(np.asarray([basename, i] + ["%.4f" % value for value in shielding_tensor[i]]))
 
             mulliken_charges = read_mulliken_charges(log_lines, basename)
             for i in range(n_atoms):
-                mulliken.append([basename, i, "%.6f" % mulliken_charges[i]])
+                mulliken.append(np.asarray([basename, i, "%.6f" % mulliken_charges[i]]))
 
             dipole_moment = read_dipole_moment(log_lines, basename)
-            dipole.append([basename] + ["%.4f" % value for value in dipole_moment])
+            dipole.append(np.asarray([basename] + ["%.4f" % value for value in dipole_moment]))
 
             for i, atom in enumerate(mol):
                 atype = atomnumber_to_letter[atom_types[j]]
-                coords.append([basename, i, atype] + ["%.9f" % value for value in atom.coords])
+                coords.append(np.asarray([basename, i, atype] + ["%.9f" % value for value in atom.coords]))
 
-    # The size in memory is a bit much, so try to avoid too many copies
-    data_array = np.asarray(data)
-    del data
-    contrib_array = np.asarray(contrib)
-    del contrib
+    log_tar.close()
+    xyz_tar.close()
+
     pot_array = np.asarray(pot)
-    del pot
     shield_array = np.asarray(shield)
-    del shield
     mulliken_array = np.asarray(mulliken)
-    del mulliken
     dipole_array = np.asarray(dipole)
-    del dipole
     coords_array = np.asarray(coords)
-    del coords
+    data_array = np.asarray(data)
+    contrib_array = np.asarray(contrib)
 
     return data_array, contrib_array, pot_array, shield_array, mulliken_array, \
             dipole_array, coords_array
@@ -468,17 +463,11 @@ def create_dataset():
     # Split the data into train and test, change sorting, add index column if needed and write the csv files
     # Prevent some extra copies by cleaning up along the way and doing the big arrays last
     process_and_write(train_mols, test_mols, pot, script_dir, 'potential_energy', [0], idx=False)
-    del pot
     process_and_write(train_mols, test_mols, shield, script_dir, 'magnetic_shielding_tensors', [1,0], idx=False)
-    del shield
     process_and_write(train_mols, test_mols, mulliken, script_dir, 'mulliken_charges', [1,0], idx=False)
-    del mulliken
     process_and_write(train_mols, test_mols, dipole, script_dir, 'dipole_moments', [0], idx=False)
-    del dipole
     process_and_write(train_mols, test_mols, coords, script_dir, 'structures', [0], idx=False)
-    del coords
     process_and_write(train_mols, test_mols, data, script_dir, 'data', [2,1,0], idx=True)
-    del data
     process_and_write(train_mols, test_mols, contrib, script_dir, 'scalar_coupling_contributions', [2,1,0], idx=False)
 
 if __name__ == "__main__":
