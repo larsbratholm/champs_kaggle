@@ -448,7 +448,7 @@ def process_and_write(train_names, test_names, data, script_dir, basename, sort_
         np.savetxt(script_dir + "/kaggle_dataset/" + basename + "_test_masked.csv", test[:,:-1], delimiter=',', fmt='%s')
     # Hack to also merge all the structures to one file
     if basename == 'structures':
-        data_with_header = add_index_and_header(header, data, data[:1], idx)
+        data_with_header, _ = add_index_and_header(header, data, data[:1], idx)
         np.savetxt(script_dir + "/kaggle_dataset/" + basename + ".csv", data_with_header, delimiter=',', fmt='%s')
 
 def create_dataset():
