@@ -355,7 +355,7 @@ def parse_data(script_dir):
             dipole.append(np.asarray([basename] + ["%.4f" % value for value in dipole_moment]))
 
             for i, atom in enumerate(mol):
-                atype = atomnumber_to_letter[atom_types[j]]
+                atype = atomnumber_to_letter[atom_types[i]]
                 coords.append(np.asarray([basename, i, atype] + ["%.9f" % value for value in atom.coords]))
 
     log_tar.close()
@@ -412,7 +412,7 @@ def add_index_and_header(header, train, test, idx):
 
     return train_index, test_index
 
-def process_and_write(set_train, set_test, data, script_dir, basename, sort_idx, idx):
+def process_and_write(train_names, test_names, data, script_dir, basename, sort_idx, idx):
     """
     Splits a csv file into sorted and indexed train and test files.
     """
@@ -435,8 +435,8 @@ def process_and_write(set_train, set_test, data, script_dir, basename, sort_idx,
         print("Unknown basename:", basename)
         quit()
 
-    train = data[np.isin(data[:,0], set_train)]
-    test = data[np.isin(data[:,0], set_test)]
+    train = data[np.isin(data[:,0], train_names)]
+    test = data[np.isin(data[:,0], test_names)]
     sort_data(train, sort_idx)
     sort_data(test, sort_idx)
     train, test = add_index_and_header(header, train, test, idx)
@@ -446,6 +446,10 @@ def process_and_write(set_train, set_test, data, script_dir, basename, sort_idx,
     # Write masked version for the target
     if basename == 'data':
         np.savetxt(script_dir + "/kaggle_dataset/" + basename + "_test_masked.csv", test[:,:-1], delimiter=',', fmt='%s')
+    # Hack to also merge all the structures to one file
+    if basename == 'structures':
+        data_with_header = add_index_and_header(header, data, data[:1], idx)
+        np.savetxt(script_dir + "/kaggle_dataset/" + basename + ".csv", data_with_header, delimiter=',', fmt='%s')
 
 def create_dataset():
     """
