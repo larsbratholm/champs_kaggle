@@ -11,3 +11,5 @@ $DIR/download_xyz_files.sh
 $DIR/download_gaussian_input_files.sh
 # Run gaussian_output_files.tar.gz download script
 $DIR/download_gaussian_output_files.sh
+# Run kaggle_dataset.tar.gz download script
+$DIR/download_kaggle_dataset.sh
