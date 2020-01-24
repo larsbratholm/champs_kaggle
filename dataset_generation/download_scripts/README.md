@@ -1,4 +1,4 @@
-# data
+# download_scripts
 Scripts to download data files needed to run the scripts from the parent folder, as well as output from these scripts.
 
 [download_all_data_generation.sh](../download_scripts/download_all_data_generation.sh) will execute all scripts below and will thus download all of the files to the [data](../data) folder.
