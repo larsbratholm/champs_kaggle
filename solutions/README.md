@@ -1,5 +1,5 @@
 # solutions
-Solutions of the top teams in the competition.
+Solutions of the top teams in the competition. Input data can be downloaded to the [data](./data/) dir with the [download_kaggle_dataset.sh](./download_kaggle_dataset.sh) script.
 
 [1st place - Hybrid](./1)
 
@@ -11,4 +11,4 @@ Solutions of the top teams in the competition.
 
 [5th place - DL guys](./5)
 
-[12th place - Team Bird Brain](./12). Input data can be downloaded with the [download_kaggle_dataset.sh](./12/download_kaggle_dataset.sh) script.
+[12th place - Team Bird Brain](./12) 

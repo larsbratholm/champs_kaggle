@@ -5,6 +5,7 @@
 
 import numpy as np
 import pandas as pd
+import os
 
 
 def normalize_scalar(scalar_traj, stats=None):
@@ -17,8 +18,10 @@ def normalize_scalar(scalar_traj, stats=None):
     scalar_traj = np.array([(ci - mean) / std for ci in scalar_traj])
     return scalar_traj, mean, std
 
+# Get script location
+script_dir = os.path.abspath(os.path.dirname(__file__))
 
-datadir = './data/champs-scalar-coupling/'
+datadir = script_dir + '../../data/'
 
 # ## Load main data in to DataFrame
 data_configurations = pd.read_csv(datadir+'structures.csv', index_col=[0, 1])
