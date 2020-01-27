@@ -1,0 +1,6 @@
+CUDA 10.0 CuDNN 7.4
+Anaconda Python 3.7 2019.03
+pytorch==1.1.0
+pytorch_geometric
+openbabel
+torch_contrib
