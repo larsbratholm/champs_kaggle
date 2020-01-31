@@ -1,0 +1,7 @@
+# PyTorch
+torch>=1.0.1
+# progress bars in model download and training scripts
+tqdm
+# Used for downloading models over HTTP
+requests
+pytorch_transformers
