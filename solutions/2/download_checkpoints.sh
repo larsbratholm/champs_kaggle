@@ -4,7 +4,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Go to models directory
-cd models
+cd $DIR/models
 
 # Download team_2_checkpoints.tar
 wget https://osf.io/3r4zv/download
