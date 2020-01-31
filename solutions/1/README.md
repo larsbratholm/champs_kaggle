@@ -50,7 +50,7 @@ We use only the `train.csv`, `test.csv`, and `structures.csv` files of the compe
 
 While in `src/`:
 1. Very fast prediction: `predictor.py fast` to use the precomputed results for ensembling.
-2. Ordinary prediction: `predictor.py` to use the precomputed checkpoints for predicting and ensembling.
+2. Ordinary prediction: `predictor.py` to use the precomputed checkpoints for predicting and ensembling (Need to run the [download_checkpoints.sh](./models/download_checkpoints.sh) script in the [models](./models) directory beforehand).
 3. Re-train models: `train.py` to train a new model from scratch. See `train.py -h` for allowed arguments, and `config` files for each model for the arguments used.
 
 The `config/models.json` file contains the following important keys:

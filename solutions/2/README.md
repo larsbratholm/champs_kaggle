@@ -1,0 +1,3 @@
+# Readme
+Best single model LB-3.164 : [transformer-experiments.ipynb](./code/transformer-experiments.ipynb)
+Ensemble script: [L2-exp-pseudo-parallel.ipynb](./code/L2-exp-pseudo-parallel.ipynb)
