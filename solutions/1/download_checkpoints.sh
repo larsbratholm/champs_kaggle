@@ -3,6 +3,9 @@
 # Get location of script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+# Go to models directory
+cd $DIR/models
+
 # Download team_1_checkpoints_part_{1,2}.tar.gz
 wget https://osf.io/89yht/download
 wget https://osf.io/46xwf/download
