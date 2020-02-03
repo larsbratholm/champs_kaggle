@@ -29,7 +29,8 @@ Below you can find a outline of how to reproduce our solution for the Predicting
 
 # External data
 Run the [download_qm9.sh](./download_qm9.sh) script to download and extract the QM9 dataset to the [input](./input) folder.
-The outputs used to generate the final ensemble for the competition can be downloaded by running the [download_submissions.sh](../download_submissions.sh) script.
+The outputs used to generate the final ensemble for the competition can be downloaded to the [output](./output) folder by running the [download_submissions.sh](./download_submissions.sh) script.
+Pre-trained models can be downloaded to the [model](./model) directory by running the [download_checkpoints.sh](./download_checkpoints.sh) script.
 
 
 ## Quick Reproduce
@@ -38,12 +39,12 @@ We will generate a 'final_submission.csv' file submitted in this competition usi
 First, we prepare data to use for inference using the following script.
 
 ```
-.../3rd_solution$ bash prepare_data.sh
+.../3$ python prepare_data.py
 ```
 
 Second, we generate final_submission.csv file using the following script.
 ```
-.../3rd_solution$ bash predict.sh
+.../3$ python predict.py
 ```
 
 # Slow Reproduce
