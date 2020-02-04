@@ -66,6 +66,7 @@ The `config/models.json` file contains the following important keys:
 ## Notes on (Pre-trained) Model Loading
 
 All pretrained models are stored in `models/`. However, different models may have slightly different architecture (e.g., some GT models are followed by a 2-layer grouped residual network, while some others only have one residual block). The training script (`train.py`), when initiated without the `--debug` flag, will automatically create a log folder in `CHAMPS-GT/` that contains the code for the GT used. When loading the model, use the `graph_transformer.py` in that log folder (instead of the default one in `src/`).
+Pre-computed models can be downloaded with the [download_checkpoints.sh](./download_checkpoints.sh) script.
 
 ## Notes on Model Training
 
