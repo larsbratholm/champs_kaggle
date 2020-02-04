@@ -1,0 +1,103 @@
+{
+    "PREDICT": {
+        "MODELS": {
+            "1JHC": [
+                [
+                    "models/unscaled-truemlkn-42-1JHC.197.last_25.torch",
+                    false
+                ],
+                [
+                    "models/unscaled-truemlkn-43-1JHC.195.last_25.torch",
+                    false
+                ]
+            ],
+            "2JHC": [
+                [
+                    "models/unscaled-truemlkn-42-2JHC.194.last_25.torch",
+                    false
+                ],
+                [
+                    "models/unscaled-truemlkn-43-2JHC.195.last_25.torch",
+                    false
+                ]
+            ],
+            "3JHC": [
+                [
+                    "models/scaled-truemlkn-43-3JHC.200.last_25.torch",
+                    true
+                ],
+                [
+                    "models/scaled-truemlkn-42-3JHC.198.last_25.torch",
+                    true
+                ]
+            ],
+            "1JHN": [
+                [
+                    "models/42.160.last_25.torch",
+                    true
+                ],
+                [
+                    "models/43.168.last_25.torch",
+                    true
+                ]
+            ],
+            "2JHN": [
+                [
+                    "models/42.160.last_25.torch",
+                    true
+                ],
+                [
+                    "models/43.168.last_25.torch",
+                    true
+                ]
+            ],
+            "3JHN": [
+                [
+                    "models/42.160.last_25.torch",
+                    true
+                ],
+                [
+                    "models/43.168.last_25.torch",
+                    true
+                ]
+            ],
+            "2JHH": [
+                [
+                    "models/scaled-truemlkn-42-2JHH.190.last_25.torch",
+                    true
+                ],
+                [
+                    "models/scaled-truemlkn-43-2JHH.190.last_25.torch",
+                    true
+                ]
+            ],
+            "3JHH": [
+                [
+                    "models/scaled-truemlkn-42-3JHH.190.last_25.torch",
+                    true
+                ],
+                [
+                    "models/scaled-truemlkn-43-3JHH.191.last_25.torch",
+                    true
+                ]
+            ]
+        },
+        "INPUT": "data/test_gdata.torch",
+        "Q9MLK": "aux_data/test_data_truemlkn_normed.torch",
+        "OUTPUT": "./"
+    },
+    "TRAIN": {
+        "TBOARD_LOG": "logs",
+        "MODEL_CHKPS": "checkpoints",
+        "MODEL_NAME": "scaled-truemlkn-43",
+        "INPUT": "data/train_gdata.torch",
+        "Q9MLK": "aux_data/train_gdata_mlkn_shld.torch",
+        "START_FROM": ""
+    },
+    "PREPARE": {
+        "INPUTS": "../data/",
+        "MULLIKEN_TRAIN": "./aux_data/mulliken_predicted_train.torch",
+        "MULLIKEN_TEST": "./aux_data/mulliken_predicted_test.torch",
+        "OUTPUTS": "./data/"
+    }
+}

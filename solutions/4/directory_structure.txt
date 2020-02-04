@@ -1,0 +1,5 @@
+.
+./docker
+./models
+./data
+./aux_data
