@@ -8,7 +8,7 @@ def parse_rank_and_name(filenames):
     rank = []
     name = []
     for filename in filenames:
-        tokens = filename.split("/")[1].split()
+        tokens = filename.split("/")[-2].split()
         rank.append(int(tokens[0]))
         if len(tokens) >= 1:
             name.append((" ".join(tokens[1:])))
@@ -45,12 +45,16 @@ def parse_submissions(filenames, id_to_idx):
     data = np.zeros((len(filenames), 2505542))
     for j, filename in enumerate(filenames):
         with open(filename) as f:
-            line = f.read()
+            # Catch all the weird quirks in formatting
+            line = f.readline().strip().replace("\"", "").lower()
             header = np.asarray(line.split(","))
-            id_column_idx = np.where(header == "id")[0]
+            id_column_idx = np.where(header == "id")[0][0]
             coupling_column_idx = 1 - id_column_idx
             for i, line in enumerate(f):
-                tokens = line.split(",")
+                tokens = line.strip().split(",")
+                # Handles windows line breaks
+                if len(tokens) < 2:
+                    continue
                 id_ = int(tokens[id_column_idx])
                 idx = id_to_idx[id_]
                 data[j,idx] = float(tokens[coupling_column_idx])
@@ -82,8 +86,8 @@ if __name__ == "__main__":
             raise SystemExit
         filenames.sort()
         rank, name = parse_rank_and_name(filenames)
-        id_to_type, id_to_idx, type_to_idx, couplings = get_test_data("../dataset/data_test.csv.gz")
+        id_to_type, id_to_idx, type_to_idx, couplings = get_test_data(script_dir + "/data/data_test.csv.gz")
         data = parse_submissions(filenames, id_to_idx)
         scores = get_score_by_type(data, couplings, type_to_idx)
-        with open('data.pkl', "wb") as f:
+        with open(script_dir + '/data/data.pkl', "wb") as f:
             pickle.dump((scores, data, id_to_type, id_to_idx, type_to_idx, rank, name, filenames, couplings),f,-1)
