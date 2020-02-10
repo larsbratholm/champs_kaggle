@@ -95,9 +95,12 @@ def visualize_methods(data, couplings, name, type_to_idx, scores, manifold='mds'
     """
     Get reduced dimensional projection
     """
-
+    # Set grid
+    #plt.style.use('seaborn-whitegrid')
     # Set fig size
     plt.rcParams["figure.figsize"] = (16,9)
+    # Set font size
+    plt.rcParams["font.size"] = 30
 
     if scale:
         metric = 'mae'
@@ -176,11 +179,14 @@ if __name__ == "__main__":
         print("No data pickle found")
         raise SystemExit
 
+    # Correlation plot of top methods
     plot_correlation(data, couplings, name, type_to_idx, subset=[0,1,2,3,4,5,11],
             filename=f"{script_dir}/output/correlation_matrix.pdf")
 
+    # Clustered correlation plot of top 50 methods
     plot_correlation(data, couplings, name, type_to_idx, subset=np.arange(50),
             filename=f"{script_dir}/output/correlation_matrix_clustering.pdf", linkage='complete')
 
+    # Solutions projected down to a 2D manifold
     visualize_methods(data, couplings, name, type_to_idx, scores, scale=True,
             subset=[0,1,2,3,4,5,11], filename=f"{script_dir}/output/manifold.pdf")
