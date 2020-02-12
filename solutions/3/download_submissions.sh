@@ -3,7 +3,7 @@
 # Get location of script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-# Go to input folder
+# Go to output folder
 cd $DIR/output
 
 # Download team_3_submissions.tar.gz

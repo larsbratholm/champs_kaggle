@@ -8,11 +8,14 @@ cd $DIR/data
 
 # Download kaggle_dataset.tar.gz
 wget https://osf.io/46dpj/download
+# Download xyz_files.tar.gz
+wget https://osf.io/xp3a5/download
 
 # Unpack
 tar zxf kaggle_dataset.tar.gz
 
 # Deleted unneeded files
+rm kaggle_dataset.tar.gz
 rm potential* magnetic_shielding_tensors_test.csv mulliken_charges_test.csv
 rm dipole* data_test.csv scalar_coupling_contributions_test.csv 
 rm structures_train.csv structures_test.csv
@@ -23,3 +26,10 @@ mv mulliken_charges_train.csv mulliken_charges.csv
 mv data_train.csv train.csv
 mv data_test_masked.csv test.csv
 mv scalar_coupling_contributions_train.csv scalar_coupling_contributions.csv
+
+# Create directory with all xyz files
+mkdir xyz
+cd xyz
+mv ../xyz_files.tar.gz .
+tar zxf xyz_files.tar.gz
+rm xyz_files.tar.gz
