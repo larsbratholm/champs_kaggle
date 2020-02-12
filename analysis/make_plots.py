@@ -49,6 +49,7 @@ def extract_weighted_subset(data, couplings, type_to_idx, subset=None, metric='m
         unscaled_data = (data[subset]-couplings[None])[:,idx]
         score = metric_fun(unscaled_data)
         scaled_data = unscaled_data / score
+
         x[:,i*20000:(i+1)*20000] = scaled_data[:,np.random.choice(np.arange(len(idx)), size=20000, replace=False)]
     return x
 
@@ -153,13 +154,19 @@ def visualize_methods(data, couplings, name, type_to_idx, scores, manifold='mds'
 
     fig, ax = plt.subplots()
 
-    ax.scatter(y[:,0], y[:,1], c=-score_averages, s=80)
+    im = ax.scatter(y[:,0], y[:,1], c=score_averages, s=120, cmap="viridis_r")
+    # Add colorbar
+    fig.colorbar(im, ax=ax)
 
     # Add the rank in the plot for the subset items
     txt = [str(i+1) if i in subset else '' for i in range(n_samples)]
 
     for i, string in enumerate(txt):
         ax.annotate(string, (y[i,0], y[i,1]))
+
+    # Remove ticks
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
 
     # Circle
     #plt.scatter(y[subset,0], y[subset,1], edgecolors='k', facecolors='None', s=320)
@@ -180,12 +187,12 @@ if __name__ == "__main__":
         raise SystemExit
 
     # Correlation plot of top methods
-    plot_correlation(data, couplings, name, type_to_idx, subset=[0,1,2,3,4,5,11],
-            filename=f"{script_dir}/output/correlation_matrix.pdf")
+    #plot_correlation(data, couplings, name, type_to_idx, subset=[0,1,2,3,4,5,11],
+    #        filename=f"{script_dir}/output/correlation_matrix.pdf")
 
     # Clustered correlation plot of top 50 methods
-    plot_correlation(data, couplings, name, type_to_idx, subset=np.arange(50),
-            filename=f"{script_dir}/output/correlation_matrix_clustering.pdf", linkage='complete')
+    #plot_correlation(data, couplings, name, type_to_idx, subset=np.arange(50),
+    #        filename=f"{script_dir}/output/correlation_matrix_clustering.pdf", linkage='complete')
 
     # Solutions projected down to a 2D manifold
     visualize_methods(data, couplings, name, type_to_idx, scores, scale=True,
