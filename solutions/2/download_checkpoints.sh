@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/models
 
 # Download team_2_checkpoints.tar
-wget https://osf.io/3r4zv/download
+wget -O team_2_checkpoints.tar https://osf.io/3r4zv/download
 
 # Unpack
 tar xf team_2_checkpoints.tar

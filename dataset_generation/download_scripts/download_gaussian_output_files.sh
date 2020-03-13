@@ -7,4 +7,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/../data
 
 # Download gaussian_output_files.tar.gz
-wget https://osf.io/d69en/download
+wget -O gaussian_output_files.tar.gz https://osf.io/d69en/download

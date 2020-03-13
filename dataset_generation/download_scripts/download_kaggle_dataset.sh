@@ -7,4 +7,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/../data
 
 # Download kaggle_dataset.tar.gz
-wget https://osf.io/46dpj/download
+wget -O kaggle_dataset.tar.gz https://osf.io/46dpj/download

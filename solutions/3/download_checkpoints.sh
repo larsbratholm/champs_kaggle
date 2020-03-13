@@ -7,9 +7,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/models
 
 # Download team_3_checkpoints_part_{1,2,3}.tar.gz
-wget https://osf.io/jdsc6/download
-wget https://osf.io/t5gu8/download
-wget https://osf.io/egv3a/download
+wget -O team_3_checkpoints_part_1.tar.gz https://osf.io/jdsc6/download
+wget -O team_3_checkpoints_part_2.tar.gz https://osf.io/t5gu8/download
+wget -O team_3_checkpoints_part_3.tar.gz https://osf.io/egv3a/download
 
 # Unpack
 tar -zxf team_3_checkpoints_part_1.tar.gz

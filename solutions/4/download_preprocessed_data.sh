@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/data
 
 # Download team_4_preprocessed_data.tar.gz
-wget https://osf.io/ntdhf/download
+wget -O team_4_preprocessed_data.tar.gz https://osf.io/ntdhf/download
 
 # Unpack
 tar -zxf team_4_preprocessed_data.tar.gz

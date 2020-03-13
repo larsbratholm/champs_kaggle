@@ -7,4 +7,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/../data
 
 # Download xyz_files.tar.gz
-wget https://osf.io/xp3a5/download
+wget -O xyz_files.tar.gz https://osf.io/xp3a5/download

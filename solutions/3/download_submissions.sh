@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/output
 
 # Download team_3_submissions.tar.gz
-wget https://osf.io/tny2v/download
+wget -O team_3_submissions.tar.gz https://osf.io/tny2v/download
 
 # Unpack
 tar -zxf team_3_submissions.tar.gz

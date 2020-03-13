@@ -4,7 +4,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Download duplicates.tar.gz
-wget https://osf.io/9tqs2/download
+wget -O duplicates.tar.gz https://osf.io/9tqs2/download
 
 # Unpack
 tar zxf duplicates.tar.gz

@@ -7,10 +7,10 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/data
 
 # Download submissions_part_{1..4}.tar.gz
-wget https://osf.io/9tqs2/download
-wget https://osf.io/tb5ev/download
-wget https://osf.io/4q2tg/download
-wget https://osf.io/e5tbu/download
+wget -O submissions_part_1.tar.gz https://osf.io/9tqs2/download
+wget -O submissions_part_2.tar.gz https://osf.io/tb5ev/download
+wget -O submissions_part_3.tar.gz https://osf.io/4q2tg/download
+wget -O submissions_part_4.tar.gz https://osf.io/e5tbu/download
 
 # Unpack
 tar zxf submissions_part_1.tar.gz
