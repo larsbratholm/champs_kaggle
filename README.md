@@ -1,5 +1,5 @@
 # champs_kaggle
-Collection of data, scripts and analysis related to the CHAMPS kaggle competition.
+Collection of data, scripts and analysis related to the CHAMPS Kaggle competition, [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling).
 
 The [dataset_generation](./dataset_generation) folder contains information and scripts related to creating the dataset 
 from the QM9 structures.
