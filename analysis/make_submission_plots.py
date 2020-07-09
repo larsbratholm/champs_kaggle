@@ -1,3 +1,6 @@
+"""
+Visualizations of the team submissions.
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -186,14 +189,14 @@ if __name__ == "__main__":
         print("No data pickle found")
         raise SystemExit
 
-    ## Correlation plot of top methods
-    #plot_correlation(data, couplings, name, type_to_idx, subset=[0,1,2,3,4,5,11],
-    #        filename=f"{script_dir}/output/correlation_matrix.pdf")
+    # Correlation plot of top methods
+    plot_correlation(data, couplings, name, type_to_idx, subset=[0,1,2,3,4,11],
+            filename=f"{script_dir}/output/correlation_matrix.png")
 
     # Clustered correlation plot of top 50 methods
-    plot_correlation(data, couplings, name, type_to_idx, subset=np.arange(30),
-            filename=f"{script_dir}/output/correlation_matrix_clustering_30.pdf", linkage='complete')
+    plot_correlation(data, couplings, name, type_to_idx, subset=np.arange(50),
+            filename=f"{script_dir}/output/correlation_matrix_clustering_50.png", linkage='complete')
 
-    ## Solutions projected down to a 2D manifold
-    #visualize_methods(data, couplings, name, type_to_idx, scores, scale=True,
-    #        subset=[0,1,2,3,4,5,11], filename=f"{script_dir}/output/manifold.pdf")
+    # Solutions projected down to a 2D manifold
+    visualize_methods(data, couplings, name, type_to_idx, scores, scale=True,
+            subset=[0,1,2,3,4,11], filename=f"{script_dir}/output/manifold.png")

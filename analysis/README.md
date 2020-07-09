@@ -11,11 +11,11 @@ This pickle can be downloaded with the [download_preprocessed_data.sh](./downloa
 
 [download_preprocessed_data.sh](./download_preprocessed_data.sh) downloads the output from the [preprocess.py](-/preprocess.py) script.
 
-[output](./output/) will contain the output from the [blend.py](./blend.py) and [make_plots.py](./make_plots.py) scripts.
+[output](./output/) will contain the output from the [blend.py](./blend.py) and [make_submission_plots.py](./make_submission_plots.py) scripts.
 
 [blend.py](./blend.py) fits the weights of two different ensembles, writes auxiliary data files to the [data](./data/) folder and writes the scores and weights to the [output](./output/) folder.
 
-[make_plots.py](./make_plots.py) creates and writes the plots shown in the paper and supporting information to the [output](./output/) folder.
+[make_submission_plots.py](./make_submission_plots.py) creates and writes the plots shown in the paper and supporting information to the [output](./output/) folder.
 
 [download_duplicate_submissions.sh](./download_duplicate_submissions.sh) downloads submissions that were a duplicate of another submission and was therefor removed from analysis.
 
