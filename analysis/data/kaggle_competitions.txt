@@ -1,0 +1,2981 @@
+BigQuery-Geotab Intersection Congestion
+BigQuery-Geotab Intersection Congestion
+
+Can you predict wait times at major city intersections?
+Playground3 days ago
+cities, infrastructure, geospatial analysis, tabular data, regression
+
+Kudos
+436 teams
+Categorical Feature Encoding Challenge
+Categorical Feature Encoding Challenge
+
+Binary classification, with every feature a categorical
+Playground6 days ago
+binary classification, tabular data, categorical data
+
+Swag
+1,342 teams
+2019 Kaggle ML & DS Survey
+2019 Kaggle ML & DS Survey
+
+The most comprehensive dataset available on the state of ML and data science
+Analytics13 days ago
+survey analysis, jobs, career resources and planning
+
+$30,000
+Understanding Clouds from Satellite Images
+Understanding Clouds from Satellite Images
+
+Can you classify cloud structures from satellites?
+Researcha month ago
+atmospheric sciences, image data
+
+$10,000
+1,538 teams
+RSNA Intracranial Hemorrhage Detection
+RSNA Intracranial Hemorrhage Detection
+
+Identify acute intracranial hemorrhage and its subtypes
+Featureda month ago
+image data, health foundations and medical research
+
+$25,000
+1,345 teams
+Lyft 3D Object Detection for Autonomous Vehicles
+Lyft 3D Object Detection for Autonomous Vehicles
+
+Can you advance the state of the art in 3D object detection?
+Featureda month ago
+object detection, image data
+
+$25,000
+547 teams
+Severstal: Steel Defect Detection
+Severstal: Steel Defect Detection
+
+Can you detect and classify defects in steel?
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.2 months ago
+image data, manufacturing
+
+$120,000
+2,431 teams
+Kuzushiji Recognition
+Kuzushiji Recognition
+
+Opening the door to a thousand years of Japanese culture
+Playground2 months ago
+history, image data, multiclass classification, japan
+
+$15,000
+293 teams
+The 3rd YouTube-8M Video Understanding Challenge
+The 3rd YouTube-8M Video Understanding Challenge
+
+Temporal localization of topics within video
+Research2 months ago
+video data, object detection
+
+$25,000
+283 teams
+IEEE-CIS Fraud Detection
+IEEE-CIS Fraud Detection
+
+Can you detect fraud from customer transactions?
+Research2 months ago
+binary classification, tabular data
+
+$20,000
+6,381 teams
+Open Images 2019 - Object Detection
+Open Images 2019 - Object Detection
+
+Detect objects in varied and complex images
+Research2 months ago
+image data, image processing
+
+$25,000
+559 teams
+Open Images 2019 - Visual Relationship
+Open Images 2019 - Visual Relationship
+
+Detect pairs of objects in particular relationships
+Research2 months ago
+image processing, image data
+
+$25,000
+201 teams
+Open Images 2019 - Instance Segmentation
+Open Images 2019 - Instance Segmentation
+
+Outline segmentation masks of objects in images
+Research2 months ago
+image data, object segmentation
+
+$25,000
+193 teams
+Recursion Cellular Image Classification
+Recursion Cellular Image Classification
+
+CellSignal: Disentangling biological signal from experimental noise in cellular images
+Research3 months ago
+image data, classification, biology, research
+
+$13,000
+866 teams
+APTOS 2019 Blindness Detection
+APTOS 2019 Blindness Detection
+
+Detect diabetic retinopathy to stop blindness before it's too late
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.3 months ago
+healthcare, medicine, image data, multiclass classification
+
+$50,000
+2,943 teams
+Ciphertext Challenge III
+Ciphertext Challenge III
+
+BRBTvl0LNstxQLyxulCEEq1czSFje0Z6iajczo6ktGmitTE=
+Playground3 months ago
+text data, poetry
+
+Swag
+103 teams
+SIIM-ACR Pneumothorax Segmentation
+SIIM-ACR Pneumothorax Segmentation
+
+Identify Pneumothorax disease in chest x-rays
+Featured3 months ago
+image data, object segmentation
+
+$30,000
+1,475 teams
+Predicting Molecular Properties
+Predicting Molecular Properties
+
+Can you measure the magnetic interactions between a pair of atoms?
+Featured4 months ago
+regression, tabular data, chemistry
+
+$30,000
+2,749 teams
+Generative Dog Images
+Generative Dog Images
+
+Experiment with creating puppy pics
+ResearchCode CompetitionSubmission is through Kaggle Notebooks.Learn more.4 months ago
+
+$10,000
+927 teams
+Northeastern SMILE Lab - Recognizing Faces in the Wild
+Northeastern SMILE Lab - Recognizing Faces in the Wild
+
+Can you determine if two individuals are related?
+Playground4 months ago
+relationships, image data
+
+Knowledge
+528 teams
+Two Sigma: Using News to Predict Stock Movements
+Two Sigma: Using News to Predict Stock Movements
+
+Use news analytics to predict stock price performance
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.4 months ago
+news agencies, time series, finance, money
+
+$100,000
+2,927 teams
+Jigsaw Unintended Bias in Toxicity Classification
+Jigsaw Unintended Bias in Toxicity Classification
+
+Detect toxicity across a diverse range of conversations
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.5 months ago
+biases, nlp, text data
+
+$65,000
+3,165 teams
+Aerial Cactus Identification
+Aerial Cactus Identification
+
+Determine whether an image contains a columnar cactus
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.5 months ago
+image data, nature, plants
+
+Knowledge
+1,225 teams
+Data Science for Good: City of Los Angeles
+Data Science for Good: City of Los Angeles
+
+Help the City of Los Angeles to structure and analyze its job descriptions
+Analytics6 months ago
+employment, image data, text data, nlp
+
+$15,000
+Instant Gratification
+Instant Gratification
+
+A synchronous Kernels-only competition
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.6 months ago
+tabular data, binary classification
+
+$5,000
+1,832 teams
+Freesound Audio Tagging 2019
+Freesound Audio Tagging 2019
+
+Automatically recognize sounds and apply tags of varying natures
+ResearchCode CompetitionSubmission is through Kaggle Notebooks.Learn more.6 months ago
+audio data, sound technology
+
+$5,000
+880 teams
+iMaterialist (Fashion) 2019 at FGVC6
+iMaterialist (Fashion) 2019 at FGVC6
+
+Fine-grained segmentation task for fashion and apparel
+Research6 months ago
+
+Kudos
+241 teams
+iNaturalist 2019 at FGVC6
+iNaturalist 2019 at FGVC6
+
+Fine-grained classification spanning a thousand species
+Research6 months ago
+
+Kudos
+214 teams
+iMet Collection 2019 - FGVC6
+iMet Collection 2019 - FGVC6
+
+Recognize artwork attributes from The Metropolitan Museum of Art
+ResearchCode CompetitionSubmission is through Kaggle Notebooks.Learn more.6 months ago
+image data, visual arts, painting
+
+Kudos
+521 teams
+iWildCam 2019 - FGVC6
+iWildCam 2019 - FGVC6
+
+Categorize animals in the wild
+Playground6 months ago
+image data, multiclass classification
+
+Kudos
+336 teams
+LANL Earthquake Prediction
+LANL Earthquake Prediction
+
+Can you predict upcoming laboratory earthquakes?
+Research6 months ago
+signal processing, physics, earth sciences
+
+$50,000
+4,540 teams
+Google Landmark Recognition 2019
+Google Landmark Recognition 2019
+
+Label famous (and not-so-famous) landmarks in images
+Research6 months ago
+
+$25,000
+281 teams
+Google Landmark Retrieval 2019
+Google Landmark Retrieval 2019
+
+Given an image, can you find all of the same landmarks in a dataset?
+Research6 months ago
+
+$25,000
+144 teams
+TMDB Box Office Prediction
+TMDB Box Office Prediction
+
+Can you predict a movie's worldwide box office revenue?
+Playground7 months ago
+film, tabular data
+
+Knowledge
+1,398 teams
+Don't Overfit! II
+Don't Overfit! II
+
+A Fistful of Samples
+Playground7 months ago
+tabular data, binary classification
+
+Swag
+2,330 teams
+Ciphertext Challenge II
+Ciphertext Challenge II
+
+553398 418126 467884 411 374106 551004 356535 539549 487091 290502 121468 556912 469347 515719 201909 101
+Playground8 months ago
+text data, internet
+
+Swag
+74 teams
+Data Science for Good: CareerVillage.org
+Data Science for Good: CareerVillage.org
+
+Match career advice questions with professionals in the field
+Analytics8 months ago
+children, education
+
+$15,000
+Gendered Pronoun Resolution
+Gendered Pronoun Resolution
+
+Pair pronouns to their correct entities
+Research8 months ago
+nlp, text data
+
+$25,000
+838 teams
+CareerCon 2019 - Help Navigate Robots
+CareerCon 2019 - Help Navigate Robots
+
+Compete to get your resume in front of our sponsors
+Recruitment8 months ago
+signal processing, tabular data, robotics
+
+Swag
+1,449 teams
+Santander Customer Transaction Prediction
+Santander Customer Transaction Prediction
+
+Can you identify who will make a transaction?
+Featured8 months ago
+banking, tabular data, binary classification
+
+$65,000
+8,802 teams
+PetFinder.my Adoption Prediction
+PetFinder.my Adoption Prediction
+
+How cute is that doggy in the shelter?
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.8 months ago
+image data, text data
+
+$25,000
+2,023 teams
+Google Cloud & NCAA® ML Competition 2019-Men's
+Google Cloud & NCAA® ML Competition 2019-Men's
+
+Apply Machine Learning to NCAA® March Madness®
+Featured8 months ago
+basketball, sports
+
+$25,000
+866 teams
+Google Cloud & NCAA® ML Competition 2019-Women's
+Google Cloud & NCAA® ML Competition 2019-Women's
+
+Apply Machine Learning to NCAA® March Madness®
+Featured8 months ago
+basketball, sports
+
+$25,000
+500 teams
+Histopathologic Cancer Detection
+Histopathologic Cancer Detection
+
+Identify metastatic tissue in histopathologic scans of lymph node sections
+Playground9 months ago
+research, oncology and cancer, medicine
+
+Knowledge
+1,157 teams
+VSB Power Line Fault Detection
+VSB Power Line Fault Detection
+
+Can you detect faults in above-ground electrical lines?
+Featured9 months ago
+signal processing, tabular data, binary classification
+
+$25,000
+1,451 teams
+Microsoft Malware Prediction
+Microsoft Malware Prediction
+
+Can you predict if a machine will soon be hit with malware?
+Research9 months ago
+
+$25,000
+2,426 teams
+Humpback Whale Identification
+Humpback Whale Identification
+
+Can you identify a whale by its tail?
+Featured10 months ago
+image data, animals
+
+$25,000
+2,129 teams
+Elo Merchant Category Recommendation
+Elo Merchant Category Recommendation
+
+Help understand customer loyalty
+Featured10 months ago
+banking, tabular data, regression
+
+$50,000
+4,127 teams
+Google Analytics Customer Revenue Prediction
+Google Analytics Customer Revenue Prediction
+
+Predict how much GStore customers will spend
+Featured10 months ago
+regression, tabular data
+
+$45,000
+3,611 teams
+Quora Insincere Questions Classification
+Quora Insincere Questions Classification
+
+Detect toxic content to improve online conversations
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.10 months ago
+text data, binary classification
+
+$25,000
+4,037 teams
+Reducing Commercial Aviation Fatalities
+Reducing Commercial Aviation Fatalities
+
+Can you tell when a pilot is heading for trouble?
+Playground10 months ago
+
+Swag
+178 teams
+PUBG Finish Placement Prediction (Kernels Only)
+PUBG Finish Placement Prediction (Kernels Only)
+
+Can you predict the battle royale finish of PUBG Players?
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+tabular data, video games
+
+Swag
+1,534 teams
+20 Newsgroups Ciphertext Challenge
+20 Newsgroups Ciphertext Challenge
+
+V8g{9827$A${?^*?}$$v7*.yig$w9.8}
+Playgrounda year ago
+text data, multiclass classification
+
+Swag
+142 teams
+Human Protein Atlas Image Classification
+Human Protein Atlas Image Classification
+
+Classify subcellular protein patterns in human cells
+Featureda year ago
+image data, classification
+
+$37,000
+2,169 teams
+Traveling Santa 2018 - Prime Paths
+Traveling Santa 2018 - Prime Paths
+
+But does your code recall, the most efficient route of all?
+Featureda year ago
+mathematical optimization, optimization
+
+$25,000
+1,871 teams
+NFL Punt Analytics Competition
+NFL Punt Analytics Competition
+
+Analyze NFL game data and suggest rules to improve player safety during punt plays
+Analyticsa year ago
+american football, sports, safety, health
+
+$80,000
+PLAsTiCC Astronomical Classification
+PLAsTiCC Astronomical Classification
+
+Can you help make sense of the Universe?
+Featureda year ago
+astronomy, time series, tabular data
+
+$25,000
+1,094 teams
+Quick, Draw! Doodle Recognition Challenge
+Quick, Draw! Doodle Recognition Challenge
+
+How accurately can you identify a doodle?
+Featureda year ago
+image data, writing
+
+$25,000
+1,316 teams
+Don't call me turkey!
+Don't call me turkey!
+
+Thanksgiving Edition: Find the turkey in the sound bite
+Playgrounda year ago
+animals, sound technology, tabular data, binary classification
+
+Swag
+267 teams
+Airbus Ship Detection Challenge
+Airbus Ship Detection Challenge
+
+Find ships on satellite images as quickly as possible
+Featureda year ago
+object detection, object segmentation, image data
+
+$60,000
+882 teams
+Inclusive Images Challenge
+Inclusive Images Challenge
+
+Stress test image classifiers across new geographic distributions
+Researcha year ago
+image data, multiclass classification
+
+$25,000
+468 teams
+RSNA Pneumonia Detection Challenge
+RSNA Pneumonia Detection Challenge
+
+Can you build an algorithm that automatically detects potential pneumonia cases?
+Featureda year ago
+image data, medicine
+
+$30,000
+1,499 teams
+TGS Salt Identification Challenge
+TGS Salt Identification Challenge
+
+Segment salt deposits beneath the Earth's surface
+Featureda year ago
+geology, image data
+
+$100,000
+3,229 teams
+New York City Taxi Fare Prediction
+New York City Taxi Fare Prediction
+
+Can you predict a rider's taxi fare?
+Playgrounda year ago
+regression, tabular data
+
+Knowledge
+1,484 teams
+Forest Cover Type (Kernels Only)
+Forest Cover Type (Kernels Only)
+
+Use cartographic variables to classify forest categories
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+tabular data, forestry, ecology
+
+Knowledge
+359 teams
+Store Item Demand Forecasting Challenge
+Store Item Demand Forecasting Challenge
+
+Predict 3 months of item sales at different stores
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+time series, tabular data
+
+Knowledge
+461 teams
+What's Cooking? (Kernels Only)
+What's Cooking? (Kernels Only)
+
+Use recipe ingredients to categorize the cuisine
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+food and drink, multiclass classification, text data
+
+Knowledge
+523 teams
+Flavours of Physics: Finding τ → μμμ (Kernels Only)
+Flavours of Physics: Finding τ → μμμ (Kernels Only)
+
+Identify a rare decay phenomenon
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+
+Knowledge
+64 teams
+Movie Review Sentiment Analysis (Kernels Only)
+Movie Review Sentiment Analysis (Kernels Only)
+
+Classify the sentiment of sentences from the Rotten Tomatoes dataset
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+text data, multiclass classification
+
+Knowledge
+410 teams
+Costa Rican Household Poverty Level Prediction
+Costa Rican Household Poverty Level Prediction
+
+Can you identify which households have the highest need for social welfare assistance?
+PlaygroundCode CompetitionSubmission is through Kaggle Notebooks.Learn more.a year ago
+multiclass classification, tabular data
+
+Swag
+618 teams
+Google AI Open Images - Object Detection Track
+Google AI Open Images - Object Detection Track
+
+Detect objects in varied and complex images.
+Featureda year ago
+
+$30,000
+454 teams
+Google AI Open Images - Visual Relationship Track
+Google AI Open Images - Visual Relationship Track
+
+Detect pairs of objects in particular relationships.
+Featureda year ago
+
+$20,000
+232 teams
+Home Credit Default Risk
+Home Credit Default Risk
+
+Can you predict how capable each applicant is of repaying a loan?
+Featureda year ago
+banking, home, tabular data
+
+$70,000
+7,190 teams
+Santander Value Prediction Challenge
+Santander Value Prediction Challenge
+
+Predict the value of transactions for potential customers.
+Featureda year ago
+finance, banking
+
+$60,000
+4,477 teams
+TrackML Particle Tracking Challenge
+TrackML Particle Tracking Challenge
+
+High Energy Physics particle tracking in CERN detectors
+Featureda year ago
+physics, tabular data
+
+$25,000
+651 teams
+The 2nd YouTube-8M Video Understanding Challenge
+The 2nd YouTube-8M Video Understanding Challenge
+
+Can you create a constrained-size model to predict video labels?
+Featureda year ago
+video data, object labeling
+
+$25,000
+312 teams
+Freesound General-Purpose Audio Tagging Challenge
+Freesound General-Purpose Audio Tagging Challenge
+
+Can you automatically recognize sounds from a wide range of real-world environments?
+Researcha year ago
+sound technology
+
+Knowledge
+558 teams
+Humpback Whale Identification Challenge
+Humpback Whale Identification Challenge
+
+Can you identify a whale by the picture of its fluke?
+Playgrounda year ago
+animals, image data
+
+Kudos
+528 teams
+Avito Demand Prediction Challenge
+Avito Demand Prediction Challenge
+
+Predict demand for an online classified ad
+Featureda year ago
+text data, image data, tabular data
+
+$25,000
+1,871 teams
+CVPR 2018 WAD Video Segmentation Challenge
+CVPR 2018 WAD Video Segmentation Challenge
+
+Can you segment each objects within image frames captured by vehicles?
+Research2 years ago
+
+$2,500
+141 teams
+iNaturalist Challenge at FGVC5
+iNaturalist Challenge at FGVC5
+
+Long tailed classification challenge spanning 8,000 species.
+Research2 years ago
+
+Kudos
+59 teams
+iMaterialist Challenge (Fashion) at FGVC5
+iMaterialist Challenge (Fashion) at FGVC5
+
+Image classification of fashion products.
+Research2 years ago
+
+$2,500
+212 teams
+iMaterialist Challenge (Furniture) at FGVC5
+iMaterialist Challenge (Furniture) at FGVC5
+
+Image Classification of Furniture & Home Goods.
+Research2 years ago
+
+$2,500
+428 teams
+Google Landmark Recognition Challenge
+Google Landmark Recognition Challenge
+
+Label famous (and not-so-famous) landmarks in images
+Research2 years ago
+image data
+
+$2,500
+477 teams
+Google Landmark Retrieval Challenge
+Google Landmark Retrieval Challenge
+
+Given an image, can you find all of the same landmarks in a dataset?
+Research2 years ago
+image data
+
+$2,500
+209 teams
+TalkingData AdTracking Fraud Detection Challenge
+TalkingData AdTracking Fraud Detection Challenge
+
+Can you detect fraudulent click traffic for mobile app ads?
+Featured2 years ago
+
+$25,000
+3,946 teams
+DonorsChoose.org Application Screening
+DonorsChoose.org Application Screening
+
+Predict whether teachers' project proposals are accepted
+Playground2 years ago
+crowdfunding, binary classification
+
+Swag
+580 teams
+2018 Data Science Bowl
+2018 Data Science Bowl
+
+Find the nuclei in divergent images to advance medical discovery
+Featured2 years ago
+biology
+
+$100,000
+3,634 teams
+Google Cloud & NCAA® ML Competition 2018-Men's
+Google Cloud & NCAA® ML Competition 2018-Men's
+
+Apply Machine Learning to NCAA® March Madness®
+Featured2 years ago
+basketball
+
+$50,000
+934 teams
+Google Cloud & NCAA® ML Competition 2018-Women's
+Google Cloud & NCAA® ML Competition 2018-Women's
+
+Apply machine learning to NCAA® March Madness®
+Featured2 years ago
+
+$50,000
+505 teams
+Toxic Comment Classification Challenge
+Toxic Comment Classification Challenge
+
+Identify and classify toxic online comments
+Featured2 years ago
+arguments, text data
+
+$35,000
+4,550 teams
+Plant Seedlings Classification
+Plant Seedlings Classification
+
+Determine the species of a seedling from an image
+Playground2 years ago
+multiclass classification, image data, plants
+
+Kudos
+834 teams
+Dog Breed Identification
+Dog Breed Identification
+
+Determine the breed of a dog in an image
+Playground2 years ago
+image data, animals, object identification, multiclass classification
+
+Kudos
+1,282 teams
+Mercari Price Suggestion Challenge
+Mercari Price Suggestion Challenge
+
+Can you automatically suggest product prices to online sellers?
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.2 years ago
+
+$100,000
+2,382 teams
+Nomad2018 Predicting Transparent Conductors
+Nomad2018 Predicting Transparent Conductors
+
+Predict the key properties of novel transparent semiconductors
+Research2 years ago
+semiconductors, chemistry
+
+€5,000
+881 teams
+IEEE's Signal Processing Society - Camera Model Identification
+IEEE's Signal Processing Society - Camera Model Identification
+
+Identify from which camera an image was taken
+Featured2 years ago
+image data
+
+$25,000
+581 teams
+Recruit Restaurant Visitor Forecasting
+Recruit Restaurant Visitor Forecasting
+
+Predict how many future visitors a restaurant will receive
+Featured2 years ago
+
+$25,000
+2,157 teams
+Statoil/C-CORE Iceberg Classifier Challenge
+Statoil/C-CORE Iceberg Classifier Challenge
+
+Ship or iceberg, can you decide from space?
+Featured2 years ago
+image data, weather, shipping, binary classification
+
+$50,000
+3,341 teams
+TensorFlow Speech Recognition Challenge
+TensorFlow Speech Recognition Challenge
+
+Can you build an algorithm that understands simple speech commands?
+Featured2 years ago
+
+$25,000
+1,314 teams
+Corporación Favorita Grocery Sales Forecasting
+Corporación Favorita Grocery Sales Forecasting
+
+Can you accurately predict sales for a large grocery chain?
+Featured2 years ago
+regression, future prediction, tabular data, food and drink
+
+$30,000
+1,674 teams
+Santa Gift Matching Challenge
+Santa Gift Matching Challenge
+
+Down through the chimney with lots of toys...
+Featured2 years ago
+mathematical optimization
+
+$25,000
+428 teams
+Zillow Prize: Zillow’s Home Value Prediction (Zestimate)
+Zillow Prize: Zillow’s Home Value Prediction (Zestimate)
+
+Can you improve the algorithm that changed the world of real estate?
+Featured2 years ago
+housing, real estate
+
+$1,200,000
+3,775 teams
+WSDM - KKBox's Music Recommendation Challenge
+WSDM - KKBox's Music Recommendation Challenge
+
+Can you build the best music recommendation system?
+Research2 years ago
+
+$5,000
+1,081 teams
+WSDM - KKBox's Churn Prediction Challenge
+WSDM - KKBox's Churn Prediction Challenge
+
+Can you predict when subscribers will churn?
+Research2 years ago
+binary classification
+
+$5,000
+575 teams
+Passenger Screening Algorithm Challenge
+Passenger Screening Algorithm Challenge
+
+Improve the accuracy of the Department of Homeland Security's threat recognition algorithms
+Featured2 years ago
+image data, terrorism, object detection
+
+$1,500,000
+518 teams
+Spooky Author Identification
+Spooky Author Identification
+
+Share code and discuss insights to identify horror authors from their writings
+Playground2 years ago
+linguistics, literature, multiclass classification
+
+$25,000
+1,243 teams
+Cdiscount’s Image Classification Challenge
+Cdiscount’s Image Classification Challenge
+
+Categorize e-commerce photos
+Featured2 years ago
+multiclass classification
+
+$35,000
+626 teams
+Porto Seguro’s Safe Driver Prediction
+Porto Seguro’s Safe Driver Prediction
+
+Predict if a driver will file an insurance claim next year.
+Featured2 years ago
+tabular data, binary classification
+
+$25,000
+5,163 teams
+Text Normalization Challenge - English Language
+Text Normalization Challenge - English Language
+
+Convert English text from written expressions into spoken forms
+Research2 years ago
+text data, languages, linguistics
+
+$25,000
+260 teams
+Text Normalization Challenge - Russian Language
+Text Normalization Challenge - Russian Language
+
+Convert Russian text from written expressions into spoken forms
+Research2 years ago
+linguistics, languages, text data
+
+$25,000
+162 teams
+Web Traffic Time Series Forecasting
+Web Traffic Time Series Forecasting
+
+Forecast future traffic to Wikipedia pages
+Research2 years ago
+tabular data, time series, internet, future prediction
+
+$25,000
+1,095 teams
+Personalized Medicine: Redefining Cancer Treatment
+Personalized Medicine: Redefining Cancer Treatment
+
+Predict the effect of Genetic Variants to enable Personalized Medicine
+Research2 years ago
+health sciences, human genetics, text data, multiclass classification
+
+$15,000
+1,386 teams
+NIPS 2017: Non-targeted Adversarial Attack
+NIPS 2017: Non-targeted Adversarial Attack
+
+Imperceptibly transform images in ways that fool classification models
+Research2 years ago
+image data, adversarial learning
+
+Swag
+91 teams
+NIPS 2017: Targeted Adversarial Attack
+NIPS 2017: Targeted Adversarial Attack
+
+Develop an adversarial attack that causes image classifiers to predict a specific target class
+Research2 years ago
+adversarial learning, image data
+
+Swag
+65 teams
+NIPS 2017: Defense Against Adversarial Attack
+NIPS 2017: Defense Against Adversarial Attack
+
+Create an image classifier that is robust to adversarial attacks
+Research2 years ago
+image data, adversarial learning
+
+Swag
+107 teams
+Carvana Image Masking Challenge
+Carvana Image Masking Challenge
+
+Automatically identify the boundaries of the car in an image
+Featured2 years ago
+object segmentation, image data, automobiles
+
+$25,000
+735 teams
+New York City Taxi Trip Duration
+New York City Taxi Trip Duration
+
+Share code and data to improve ride time predictions
+Playground2 years ago
+taxi services, tabular data, regression
+
+$30,000
+1,257 teams
+Invasive Species Monitoring
+Invasive Species Monitoring
+
+Identify images of invasive hydrangea
+Playground2 years ago
+image data, plants, object detection
+
+Knowledge
+512 teams
+Instacart Market Basket Analysis
+Instacart Market Basket Analysis
+
+Which products will an Instacart consumer purchase again?
+Featured2 years ago
+market basket, food and drink
+
+$25,000
+2,622 teams
+Planet: Understanding the Amazon from Space
+Planet: Understanding the Amazon from Space
+
+Use satellite data to track the human footprint in the Amazon rainforest
+Featured2 years ago
+image data, ecology, forestry, object identification
+
+$60,000
+938 teams
+Mercedes-Benz Greener Manufacturing
+Mercedes-Benz Greener Manufacturing
+
+Can you cut the time a Mercedes-Benz spends on the test bench?
+Featured2 years ago
+automobiles, tabular data, regression
+
+$25,000
+3,831 teams
+iNaturalist Challenge at FGVC 2017
+iNaturalist Challenge at FGVC 2017
+
+Fine-grained classification challenge spanning 5,000 species.
+Research2 years ago
+object identification, image data, animals, plants
+
+Knowledge
+50 teams
+iMaterialist Challenge at FGVC 2017
+iMaterialist Challenge at FGVC 2017
+
+Can you assign accurate description labels to images of apparel products?
+Research2 years ago
+clothing, object labeling, image data
+
+Knowledge
+28 teams
+Sberbank Russian Housing Market
+Sberbank Russian Housing Market
+
+Can you predict realty price fluctuations in Russia’s volatile economy?
+Featured2 years ago
+regression, housing, banking, tabular data
+
+$25,000
+3,274 teams
+NOAA Fisheries Steller Sea Lion Population Count
+NOAA Fisheries Steller Sea Lion Population Count
+
+How many sea lions do you see?
+Featured2 years ago
+oceanography, animals, counting, image data
+
+$25,000
+385 teams
+Intel & MobileODT Cervical Cancer Screening
+Intel & MobileODT Cervical Cancer Screening
+
+Which cancer treatment will be most effective?
+Featured2 years ago
+image data, multiclass classification, object identification, healthcare
+
+$100,000
+848 teams
+Quora Question Pairs
+Quora Question Pairs
+
+Can you identify question pairs that have the same intent?
+Featured3 years ago
+text data, tabular data, linguistics, internet, duplicate detection
+
+$25,000
+3,304 teams
+Google Cloud & YouTube-8M Video Understanding Challenge
+Google Cloud & YouTube-8M Video Understanding Challenge
+
+Can you produce the best video tag predictions?
+Featured3 years ago
+object labeling, internet, image data
+
+$100,000
+655 teams
+Two Sigma Connect: Rental Listing Inquiries
+Two Sigma Connect: Rental Listing Inquiries
+
+How much interest will a new rental listing on RentHop receive?
+Recruitment3 years ago
+tabular data, text data, housing, multiclass classification
+
+Jobs
+2,487 teams
+The Nature Conservancy Fisheries Monitoring
+The Nature Conservancy Fisheries Monitoring
+
+Can you detect and classify species of fish?
+Featured3 years ago
+multiclass classification, object detection, fishing, image data
+
+$150,000
+2,293 teams
+Data Science Bowl 2017
+Data Science Bowl 2017
+
+Can you improve lung cancer detection?
+Featured3 years ago
+image data, healthcare, binary classification
+
+$1,000,000
+1,972 teams
+March Machine Learning Mania 2017
+March Machine Learning Mania 2017
+
+Predict the 2017 NCAA Basketball Tournament
+Playground3 years ago
+future prediction, basketball, sports
+
+Swag
+441 teams
+Transfer Learning on Stack Exchange Tags
+Transfer Learning on Stack Exchange Tags
+
+Predict tags from models trained on unrelated topics
+Playground3 years ago
+tabular data, text data, multiclass classification
+
+Knowledge
+380 teams
+Dstl Satellite Imagery Feature Detection
+Dstl Satellite Imagery Feature Detection
+
+Can you train an eye in the sky?
+Featured3 years ago
+multiclass classification, object segmentation, image data
+
+$100,000
+419 teams
+Dogs vs. Cats Redux: Kernels Edition
+Dogs vs. Cats Redux: Kernels Edition
+
+Distinguish images of dogs from cats
+Playground3 years ago
+image data, animals, object identification, binary classification
+
+Knowledge
+1,314 teams
+Two Sigma Financial Modeling Challenge
+Two Sigma Financial Modeling Challenge
+
+Can you uncover predictive value in an uncertain world?
+FeaturedCode CompetitionSubmission is through Kaggle Notebooks.Learn more.3 years ago
+future prediction, finance
+
+$100,000
+2,068 teams
+Leaf Classification
+Leaf Classification
+
+Can you see the random forest for the leaves?
+Playground3 years ago
+image data, multiclass classification, object identification
+
+Knowledge
+1,597 teams
+Santa's Uncertain Bags
+Santa's Uncertain Bags
+
+♫ Bells are ringing, children singing, all is merry and bright. Santa's elves made a big mistake, now he needs your help tonight ♫
+Playground3 years ago
+mathematical optimization, tabular data
+
+Swag
+692 teams
+Outbrain Click Prediction
+Outbrain Click Prediction
+
+Can you predict which recommended content each user will click?
+Featured3 years ago
+tabular data, internet, click prediction
+
+$25,000
+979 teams
+Facial Keypoints Detection
+Facial Keypoints Detection
+
+Detect the location of keypoints on face images
+Getting Started3 years ago
+object labeling, image data
+
+Knowledge
+175 teams
+First Steps With Julia
+First Steps With Julia
+
+Use Julia to identify characters from Google Street View images
+Getting Started3 years ago
+image data, object identification
+
+Knowledge
+56 teams
+Santander Product Recommendation
+Santander Product Recommendation
+
+Can you pair products with people?
+Featured3 years ago
+multiclass classification, banking, tabular data
+
+$60,000
+1,786 teams
+Allstate Claims Severity
+Allstate Claims Severity
+
+How severe is an insurance claim?
+Recruitment3 years ago
+tabular data, regression
+
+Jobs
+3,052 teams
+Melbourne University AES/MathWorks/NIH Seizure Prediction
+Melbourne University AES/MathWorks/NIH Seizure Prediction
+
+Predict seizures in long-term human intracranial EEG recordings
+Research3 years ago
+signal data, diseases, healthcare
+
+$20,000
+478 teams
+Ghouls, Goblins, and Ghosts... Boo!
+Ghouls, Goblins, and Ghosts... Boo!
+
+Can you classify monsters haunting Kaggle?
+Playground3 years ago
+tabular data, multiclass classification
+
+Knowledge
+763 teams
+Bosch Production Line Performance
+Bosch Production Line Performance
+
+Reduce manufacturing failures
+Featured3 years ago
+binary classification, tabular data, manufacturing
+
+$30,000
+1,373 teams
+Painter by Numbers
+Painter by Numbers
+
+Does every painter leave a fingerprint?
+Playground3 years ago
+painting, image data, duplicate detection, object recognition
+
+Knowledge
+41 teams
+Integer Sequence Learning
+Integer Sequence Learning
+
+1, 2, 3, 4, 5, 7?!
+Playground3 years ago
+mathematics, numbers, tabular data
+
+Knowledge
+285 teams
+Predicting Red Hat Business Value
+Predicting Red Hat Business Value
+
+Classify customer potential
+Featured3 years ago
+tabular data, business
+
+$50,000
+2,269 teams
+TalkingData Mobile User Demographics
+TalkingData Mobile User Demographics
+
+Get to know millions of mobile device users
+Featured3 years ago
+demographics, tabular data, mobile web, multiclass classification
+
+$25,000
+1,688 teams
+Grupo Bimbo Inventory Demand
+Grupo Bimbo Inventory Demand
+
+Maximize sales and minimize returns of bakery goods
+Featured3 years ago
+future prediction, food and drink, tabular data
+
+$25,000
+1,968 teams
+Ultrasound Nerve Segmentation
+Ultrasound Nerve Segmentation
+
+Identify nerve structures in ultrasound images of the neck
+Featured3 years ago
+health sciences, healthcare, object segmentation, image data
+
+$100,000
+923 teams
+State Farm Distracted Driver Detection
+State Farm Distracted Driver Detection
+
+Can computer vision spot distracted drivers?
+Featured3 years ago
+image data, object recognition, automobiles
+
+$65,000
+1,440 teams
+Shelter Animal Outcomes
+Shelter Animal Outcomes
+
+Help improve outcomes for shelter animals
+Playground3 years ago
+tabular data, animals, multiclass classification
+
+Knowledge
+1,601 teams
+Avito Duplicate Ads Detection
+Avito Duplicate Ads Detection
+
+Can you detect duplicitous duplicate ads?
+Featured3 years ago
+duplicate detection, internet
+
+$20,000
+548 teams
+Facebook V: Predicting Check Ins
+Facebook V: Predicting Check Ins
+
+Identify the correct place for check ins
+Recruitment3 years ago
+internet, tabular data, geography, multiclass classification
+
+Jobs
+1,211 teams
+Draper Satellite Image Chronology
+Draper Satellite Image Chronology
+
+Can you put order to space and time?
+Featured3 years ago
+ranking, image data, timelines
+
+$75,000
+400 teams
+Kobe Bryant Shot Selection
+Kobe Bryant Shot Selection
+
+Which shots did Kobe sink?
+Playground4 years ago
+basketball, tabular data, binary classification
+
+Knowledge
+1,117 teams
+Expedia Hotel Recommendations
+Expedia Hotel Recommendations
+
+Which hotel type will an Expedia customer book?
+Featured4 years ago
+recommendation, hotels, tabular data
+
+$25,000
+1,973 teams
+San Francisco Crime Classification
+San Francisco Crime Classification
+
+Predict the category of crimes that occurred in the city by the bay
+Playground4 years ago
+tabular data, crime, multiclass classification
+
+Knowledge
+2,332 teams
+Santander Customer Satisfaction
+Santander Customer Satisfaction
+
+Which customers are happy customers?
+Featured4 years ago
+tabular data, banking, binary classification
+
+$60,000
+5,122 teams
+Home Depot Product Search Relevance
+Home Depot Product Search Relevance
+
+Predict the relevance of search results on homedepot.com
+Featured4 years ago
+tabular data, ranking
+
+$40,000
+2,124 teams
+BNP Paribas Cardif Claims Management
+BNP Paribas Cardif Claims Management
+
+Can you accelerate BNP Paribas Cardif's claims management process?
+Featured4 years ago
+tabular data, binary classification, banking
+
+$30,000
+2,923 teams
+Yelp Restaurant Photo Classification
+Yelp Restaurant Photo Classification
+
+Predict attribute labels for restaurants using user-submitted photos
+Recruitment4 years ago
+internet, image data, food and drink, object labeling
+
+Jobs
+355 teams
+March Machine Learning Mania 2016
+March Machine Learning Mania 2016
+
+Predict the 2016 NCAA Basketball Tournament
+Featured4 years ago
+future prediction, basketball, sports, tabular data
+
+$25,000
+597 teams
+Second Annual Data Science Bowl
+Second Annual Data Science Bowl
+
+Transforming How We Diagnose Heart Disease
+Featured4 years ago
+healthcare, image data
+
+$200,000
+192 teams
+Telstra Network Disruptions
+Telstra Network Disruptions
+
+Predict service faults on Australia's largest telecommunications network
+Recruitment4 years ago
+internet, tabular data, multiclass classification
+
+Jobs
+973 teams
+Prudential Life Insurance Assessment
+Prudential Life Insurance Assessment
+
+Can you make buying life insurance easier?
+Featured4 years ago
+ranking, tabular data
+
+$30,000
+2,618 teams
+The Allen AI Science Challenge
+The Allen AI Science Challenge
+
+Is your model smarter than an 8th grader?
+Featured4 years ago
+tabular data, artificial intelligence, multiclass classification, text data
+
+$80,000
+170 teams
+Airbnb New User Bookings
+Airbnb New User Bookings
+
+Where will a new guest book their first travel experience?
+Recruitment4 years ago
+tabular data, hotels, recommendation
+
+Jobs
+1,462 teams
+Homesite Quote Conversion
+Homesite Quote Conversion
+
+Which customers will purchase a quoted insurance plan?
+Featured4 years ago
+tabular data, binary classification
+
+$20,000
+1,762 teams
+Cervical Cancer Screening
+Cervical Cancer Screening
+
+Help prevent cervical cancer by identifying at-risk populations
+Featured4 years agoLimited
+
+$100,000
+40 teams
+The Winton Stock Market Challenge
+The Winton Stock Market Challenge
+
+Join a multi-disciplinary team of research scientists
+Featured4 years ago
+finance, tabular data, future prediction
+
+$50,000
+832 teams
+Santa's Stolen Sleigh
+Santa's Stolen Sleigh
+
+♫ Alarm bells ring, are you listening? Santa's sleigh has gone missing ♫
+Featured4 years ago
+mathematical optimization, tabular data
+
+$20,000
+1,127 teams
+Right Whale Recognition
+Right Whale Recognition
+
+Identify endangered right whales in aerial photographs
+Research4 years ago
+oceanography, animals, image data, object detection
+
+$10,000
+364 teams
+Walmart Recruiting: Trip Type Classification
+Walmart Recruiting: Trip Type Classification
+
+Use market basket analysis to classify shopping trips
+Recruitment4 years ago
+multiclass classification, tabular data
+
+Jobs
+1,046 teams
+What's Cooking?
+What's Cooking?
+
+Use recipe ingredients to categorize the cuisine
+Playground4 years ago
+text data, food and drink, multiclass classification
+
+Knowledge
+1,388 teams
+Rossmann Store Sales
+Rossmann Store Sales
+
+Forecast sales using store, promotion, and competitor data
+Featured4 years ago
+future prediction, tabular data
+
+$35,000
+3,303 teams
+How Much Did It Rain? II
+How Much Did It Rain? II
+
+Predict hourly rainfall using data from polarimetric radars
+Research4 years ago
+tabular data, regression, future prediction
+
+$500
+587 teams
+Western Australia Rental Prices
+Western Australia Rental Prices
+
+Predict rental prices for properties across Western Australia
+Featured4 years agoLimited
+
+$100,000
+59 teams
+Springleaf Marketing Response
+Springleaf Marketing Response
+
+Determine whether to send a direct mail piece to a customer
+Featured4 years ago
+marketing, tabular data, binary classification
+
+$100,000
+2,226 teams
+Truly Native?
+Truly Native?
+
+Predict which web pages served by StumbleUpon are sponsored
+Featured4 years ago
+binary classification, tabular data, marketing
+
+$10,000
+274 teams
+Flavours of Physics: Finding τ → μμμ
+Flavours of Physics: Finding τ → μμμ
+
+Identify a rare decay phenomenon
+Featured4 years ago
+physics, tabular data, binary classification
+
+$15,000
+673 teams
+Denoising Dirty Documents
+Denoising Dirty Documents
+
+Remove noise from printed text
+Playground4 years ago
+object segmentation, image data
+
+Knowledge
+161 teams
+Coupon Purchase Prediction
+Coupon Purchase Prediction
+
+Predict which coupons a customer will buy
+Featured4 years ago
+tabular data, marketing, multiclass classification
+
+$50,000
+1,076 teams
+Introducing Kaggle Scripts
+Introducing Kaggle Scripts
+
+Your code deserves better
+Playground4 years ago
+
+Swag
+Caterpillar Tube Pricing
+Caterpillar Tube Pricing
+
+Model quoted prices for industrial tube assemblies
+Featured4 years ago
+regression, manufacturing, tabular data
+
+$30,000
+1,323 teams
+Grasp-and-Lift EEG Detection
+Grasp-and-Lift EEG Detection
+
+Identify hand motions from EEG recordings
+Research4 years ago
+signal data, multiclass classification
+
+$10,000
+379 teams
+Liberty Mutual Group: Property Inspection Prediction
+Liberty Mutual Group: Property Inspection Prediction
+
+Quantify property hazards before time of inspection
+Featured4 years ago
+counting, housing
+
+$25,000
+2,236 teams
+ICDM 2015: Drawbridge Cross-Device Connections
+ICDM 2015: Drawbridge Cross-Device Connections
+
+Identify individual users across their digital devices
+Featured4 years ago
+tabular data, multiclass classification
+
+$10,000
+340 teams
+Avito Context Ad Clicks
+Avito Context Ad Clicks
+
+Predict if context ads will earn a user's click
+Featured4 years ago
+click prediction, tabular data, marketing
+
+$20,000
+414 teams
+Diabetic Retinopathy Detection
+Diabetic Retinopathy Detection
+
+Identify signs of diabetic retinopathy in eye images
+Featured4 years ago
+optometry, health sciences, image data, binary classification
+
+$100,000
+661 teams
+Crowdflower Search Results Relevance
+Crowdflower Search Results Relevance
+
+Predict the relevance of search results from eCommerce sites
+Featured4 years ago
+ranking, tabular data, internet
+
+$20,000
+1,326 teams
+ECML/PKDD 15: Taxi Trajectory Prediction (I)
+ECML/PKDD 15: Taxi Trajectory Prediction (I)
+
+Predict the destination of taxi trips based on initial partial trajectories
+Research4 years ago
+taxi services, tabular data
+
+$250
+381 teams
+ECML/PKDD 15: Taxi Trip Time Prediction (II)
+ECML/PKDD 15: Taxi Trip Time Prediction (II)
+
+Predict the total travel time of taxi trips based on their initial partial trajectories
+Research4 years ago
+taxi services, tabular data
+
+$250
+345 teams
+Bag of Words Meets Bags of Popcorn
+Bag of Words Meets Bags of Popcorn
+
+Use Google's Word2Vec for movie reviews
+Getting Started4 years ago
+film, text data, binary classification
+
+Knowledge
+578 teams
+West Nile Virus Prediction
+West Nile Virus Prediction
+
+Predict West Nile virus in mosquitos across the city of Chicago
+Featured4 years ago
+binary classification, tabular data
+
+$40,000
+1,306 teams
+Facebook Recruiting IV: Human or Robot?
+Facebook Recruiting IV: Human or Robot?
+
+Predict if an online bid is made by a machine or a human
+Recruitment5 years ago
+tabular data, internet, binary classification
+
+Jobs
+985 teams
+Random Acts of Pizza
+Random Acts of Pizza
+
+Predicting altruism through free pizza
+Playground5 years ago
+internet, text data, binary classification
+
+Knowledge
+464 teams
+Poker Rule Induction
+Poker Rule Induction
+
+Determine the poker hand of five playing cards
+Playground5 years ago
+tabular data, card games, multiclass classification
+
+Knowledge
+207 teams
+Bike Sharing Demand
+Bike Sharing Demand
+
+Forecast use of a city bikeshare system
+Playground5 years ago
+cycling, tabular data, future prediction
+
+Knowledge
+3,251 teams
+Walmart Recruiting II: Sales in Stormy Weather
+Walmart Recruiting II: Sales in Stormy Weather
+
+Predict how sales of weather-sensitive products are affected by snow and rain
+Recruitment5 years ago
+regression, tabular data
+
+Jobs
+485 teams
+Otto Group Product Classification Challenge
+Otto Group Product Classification Challenge
+
+Classify products into the correct category
+Featured5 years ago
+tabular data, internet
+
+$10,000
+3,511 teams
+How Much Did It Rain?
+How Much Did It Rain?
+
+Predict probabilistic distribution of hourly rain given polarimetric radar measurements
+Research5 years ago
+tabular data
+
+$500
+321 teams
+Forest Cover Type Prediction
+Forest Cover Type Prediction
+
+Use cartographic variables to classify forest categories
+Playground5 years ago
+forestry, multiclass classification
+
+Knowledge
+1,694 teams
+Restaurant Revenue Prediction
+Restaurant Revenue Prediction
+
+Predict annual restaurant sales based on objective measurements
+Featured5 years ago
+regression, tabular data
+
+$30,000
+2,257 teams
+15.071x - The Analytics Edge (Spring 2015)
+15.071x - The Analytics Edge (Spring 2015)
+
+Test your analytics skills by predicting which New York Times blog articles will be the most popular
+Research5 years agoLimited
+
+Knowledge
+2,923 teams
+Billion Word Imputation
+Billion Word Imputation
+
+Find and impute missing words in the billion word corpus
+Playground5 years ago
+linguistics, text data
+
+Knowledge
+87 teams
+Microsoft Malware Classification Challenge (BIG 2015)
+Microsoft Malware Classification Challenge (BIG 2015)
+
+Classify malware into families based on file content and characteristics
+Research5 years ago
+multiclass classification, text data, internet
+
+$16,000
+377 teams
+March Machine Learning Mania 2015
+March Machine Learning Mania 2015
+
+Predict the 2015 NCAA Basketball Tournament
+Featured5 years ago
+basketball, sports, tabular data, future prediction
+
+$15,000
+341 teams
+15.071x - The Analytics Edge (Spring 2015)
+15.071x - The Analytics Edge (Spring 2015)
+
+Test your analytics skills by predicting which New York Times blog articles will be the most popular.
+Research5 years agoLimited
+
+Knowledge
+Finding Elo
+Finding Elo
+
+Predict a chess player's FIDE Elo rating from one game
+Playground5 years ago
+ranking, tabular data, board games
+
+Knowledge
+158 teams
+National Data Science Bowl
+National Data Science Bowl
+
+Predict ocean health, one plankton at a time
+Featured5 years ago
+oceanography, image data, multiclass classification
+
+$175,000
+1,049 teams
+Driver Telematics Analysis
+Driver Telematics Analysis
+
+Use telematic data to identify a driver signature
+Featured5 years ago
+multiclass classification, tabular data
+
+$30,000
+1,528 teams
+Sentiment Analysis on Movie Reviews
+Sentiment Analysis on Movie Reviews
+
+Classify the sentiment of sentences from the Rotten Tomatoes dataset
+Playground5 years ago
+text data, multiclass classification
+
+Knowledge
+861 teams
+BCI Challenge @ NER 2015
+BCI Challenge @ NER 2015
+
+A spell on you if you cannot detect errors!
+Research5 years ago
+
+$1,000
+260 teams
+Click-Through Rate Prediction
+Click-Through Rate Prediction
+
+Predict whether a mobile ad will be clicked
+Featured5 years ago
+
+$15,000
+1,604 teams
+Helping Santa's Helpers
+Helping Santa's Helpers
+
+Jingle bells, Santa tells ...
+Featured5 years ago
+
+$20,000
+439 teams
+Data Science London + Scikit-learn
+Data Science London + Scikit-learn
+
+Scikit-learn is an open-source machine learning library for Python. Give it a try here!
+Getting Started5 years ago
+
+Knowledge
+191 teams
+American Epilepsy Society Seizure Prediction Challenge
+American Epilepsy Society Seizure Prediction Challenge
+
+Predict seizures in intracranial EEG recordings
+Research5 years ago
+
+$25,000
+504 teams
+Tradeshift Text Classification
+Tradeshift Text Classification
+
+Classify text blocks in documents
+Featured5 years ago
+
+$5,000
+375 teams
+Learning Social Circles in Networks
+Learning Social Circles in Networks
+
+Model friend memberships to multiple circles
+Playground5 years ago
+
+Knowledge
+203 teams
+Africa Soil Property Prediction Challenge
+Africa Soil Property Prediction Challenge
+
+Predict physical and chemical properties of soil using spectral measurements
+Research5 years ago
+
+$8,000
+1,233 teams
+CIFAR-10 - Object Recognition in Images
+CIFAR-10 - Object Recognition in Images
+
+Identify the subject of 60,000 labeled images
+Playground5 years ago
+
+Knowledge
+231 teams
+Display Advertising Challenge
+Display Advertising Challenge
+
+Predict click-through rates on display ads
+Research5 years ago
+
+$16,000
+717 teams
+Higgs Boson Machine Learning Challenge
+Higgs Boson Machine Learning Challenge
+
+Use the ATLAS experiment to identify the Higgs boson
+Featured5 years ago
+
+$13,000
+1,785 teams
+Liberty Mutual Group - Fire Peril Loss Cost
+Liberty Mutual Group - Fire Peril Loss Cost
+
+Predict expected fire losses for insurance policies
+Featured5 years ago
+
+$25,000
+634 teams
+The Hunt for Prohibited Content
+The Hunt for Prohibited Content
+
+Predict which ads contain illicit content
+Featured5 years ago
+
+$25,000
+285 teams
+UPenn and Mayo Clinic's Seizure Detection Challenge
+UPenn and Mayo Clinic's Seizure Detection Challenge
+
+Detect seizures in intracranial EEG recordings
+Research5 years ago
+
+$8,000
+200 teams
+DecMeg2014 - Decoding the Human Brain
+DecMeg2014 - Decoding the Human Brain
+
+Predict visual stimuli from MEG recordings of human brain activity
+Research5 years ago
+
+$5,000
+267 teams
+MLSP 2014 Schizophrenia Classification Challenge
+MLSP 2014 Schizophrenia Classification Challenge
+
+Diagnose schizophrenia using multimodal features from MRI scans
+Research5 years ago
+
+Kudos
+313 teams
+KDD Cup 2014 - Predicting Excitement at DonorsChoose.org
+KDD Cup 2014 - Predicting Excitement at DonorsChoose.org
+
+Predict funding requests that deserve an A+
+Research5 years ago
+
+$2,000
+472 teams
+Greek Media Monitoring Multilabel Classification (WISE 2014)
+Greek Media Monitoring Multilabel Classification (WISE 2014)
+
+Multi-label classification of printed media articles to topics
+Research5 years ago
+
+$680
+120 teams
+Acquire Valued Shoppers Challenge
+Acquire Valued Shoppers Challenge
+
+Predict which shoppers will become repeat buyers
+Featured5 years ago
+
+$30,000
+952 teams
+Risky Business
+Risky Business
+
+Predict the risk of customer credit default
+Masters6 years agoLimited
+
+$100,000
+44 teams
+Allstate Purchase Prediction Challenge
+Allstate Purchase Prediction Challenge
+
+Predict a purchased policy based on transaction history
+Featured6 years ago
+
+$50,000
+1,568 teams
+CONNECTOMICS
+CONNECTOMICS
+
+Reconstruct the wiring between neurons from fluorescence imaging of neural activity
+Research6 years ago
+
+$3,000
+143 teams
+The Analytics Edge (15.071x)
+The Analytics Edge (15.071x)
+
+Learn what predicts happiness by using informal polling questions.
+Playground6 years agoLimited
+
+Knowledge
+1,685 teams
+Walmart Recruiting - Store Sales Forecasting
+Walmart Recruiting - Store Sales Forecasting
+
+Use historical markdown data to predict store sales
+Recruitment6 years ago
+
+Jobs
+690 teams
+Large Scale Hierarchical Text Classification
+Large Scale Hierarchical Text Classification
+
+Classify Wikipedia documents into one of 325,056 categories
+Research6 years ago
+
+Swag
+119 teams
+March Machine Learning Mania
+March Machine Learning Mania
+
+Tip off college basketball by predicting the 2014 NCAA Tournament
+Featured6 years ago
+basketball, sports
+
+$15,000
+248 teams
+Galaxy Zoo - The Galaxy Challenge
+Galaxy Zoo - The Galaxy Challenge
+
+Classify the morphologies of distant galaxies in our Universe
+Research6 years ago
+
+$16,000
+326 teams
+The Random Number Grand Challenge
+The Random Number Grand Challenge
+
+Decode a sequence of pseudorandom numbers
+Featured6 years ago
+
+$1,000
+205 teams
+PAKDD 2014 - ASUS Malfunctional Components Prediction
+PAKDD 2014 - ASUS Malfunctional Components Prediction
+
+Predict malfunctional components of ASUS notebooks
+Research6 years ago
+
+$8,500
+610 teams
+Loan Default Prediction - Imperial College London
+Loan Default Prediction - Imperial College London
+
+Constructing an optimal portfolio of loans
+Research6 years ago
+
+$10,000
+675 teams
+Flu Forecasting
+Flu Forecasting
+
+Predict when, where and how strong the flu will be
+Masters6 years agoLimited
+
+$125,000
+50 teams
+Conway's Reverse Game of Life
+Conway's Reverse Game of Life
+
+Reverse the arrow of time in the Game of Life
+Playground6 years ago
+
+Swag
+142 teams
+Dogs vs. Cats
+Dogs vs. Cats
+
+Create an algorithm to distinguish dogs from cats
+Playground6 years ago
+
+Swag
+215 teams
+Packing Santa's Sleigh
+Packing Santa's Sleigh
+
+He's making a list, checking it twice; to fill up his sleigh, he needs your advice
+Featured6 years ago
+
+$10,000
+362 teams
+Personalized Web Search Challenge
+Personalized Web Search Challenge
+
+Re-rank web documents using personal preferences
+Featured6 years ago
+
+$9,000
+194 teams
+As the World Churns
+As the World Churns
+
+Predict which customers will leave an insurance company in the next 12 months.
+Masters6 years agoLimited
+
+$70,000
+37 teams
+Facebook Recruiting III - Keyword Extraction
+Facebook Recruiting III - Keyword Extraction
+
+Identify keywords and tags from millions of text questions
+Recruitment6 years ago
+
+Jobs
+367 teams
+Partly Sunny with a Chance of Hashtags
+Partly Sunny with a Chance of Hashtags
+
+What can a #machine learn from tweets about the #weather?
+Playground6 years ago
+
+$500
+259 teams
+See Click Predict Fix
+See Click Predict Fix
+
+Predict which 311 issues are most important to citizens
+Featured6 years ago
+
+$4,000
+531 teams
+Multi-label Bird Species Classification - NIPS 2013
+Multi-label Bird Species Classification - NIPS 2013
+
+Identify which of 87 classes of birds and amphibians are present into 1000 continuous wild sound recordings
+Research6 years ago
+
+Knowledge
+32 teams
+Accelerometer Biometric Competition
+Accelerometer Biometric Competition
+
+Recognize users of mobile devices from accelerometer data
+Research6 years ago
+
+$5,000
+633 teams
+AMS 2013-2014 Solar Energy Prediction Contest
+AMS 2013-2014 Solar Energy Prediction Contest
+
+Forecast daily solar energy with an ensemble of weather models
+Research6 years ago
+
+$1,000
+160 teams
+Personalize Expedia Hotel Searches - ICDM 2013
+Personalize Expedia Hotel Searches - ICDM 2013
+
+Learning to rank hotels to maximize purchases
+Featured6 years ago
+
+$25,000
+336 teams
+StumbleUpon Evergreen Classification Challenge
+StumbleUpon Evergreen Classification Challenge
+
+Build a classifier to categorize webpages as evergreen or non-evergreen
+Featured6 years ago
+internet, tabular data, text data
+
+$5,000
+625 teams
+Belkin Energy Disaggregation Competition
+Belkin Energy Disaggregation Competition
+
+Disaggregate household energy consumption into individual appliances
+Featured6 years ago
+
+$25,000
+165 teams
+The Big Data Combine Engineered by BattleFin
+The Big Data Combine Engineered by BattleFin
+
+Predict short term movements in stock prices using news and sentiment data provided by RavenPack
+Research6 years ago
+
+$18,500
+425 teams
+See Click Predict Fix - Hackathon
+See Click Predict Fix - Hackathon
+
+Predict which 311 issues are most important to citizens
+Featured6 years ago
+
+$1,000
+80 teams
+Cause-effect pairs
+Cause-effect pairs
+
+Given samples from a pair of variables A, B, find whether A is a cause of B.
+Research6 years ago
+
+$10,000
+266 teams
+RecSys2013: Yelp Business Rating Prediction
+RecSys2013: Yelp Business Rating Prediction
+
+RecSys Challenge 2013: Yelp business rating prediction
+Research6 years ago
+
+$500
+158 teams
+Multi-modal Gesture Recognition
+Multi-modal Gesture Recognition
+
+Recognize gesture sequences in video and depth data from Kinect
+Research6 years ago
+
+$10,000
+53 teams
+MLSP 2013 Bird Classification Challenge
+MLSP 2013 Bird Classification Challenge
+
+Predict the set of bird species present in an audio recording, collected in field conditions.
+Research6 years ago
+
+$1,800
+79 teams
+MasterCard - Data Cleansing Competition
+MasterCard - Data Cleansing Competition
+
+Improve the quality of information within transaction data
+Masters6 years agoLimited
+
+$100,000
+6 teams
+Amazon.com - Employee Access Challenge
+Amazon.com - Employee Access Challenge
+
+Predict an employee's access needs, given his/her job role
+Featured6 years ago
+
+$5,000
+1,687 teams
+Yelp Recruiting Competition
+Yelp Recruiting Competition
+
+How many "useful" votes will a Yelp review receive? Show off your skills to land an interview for a position on a Yelp data mining team!
+Recruitment6 years ago
+
+Jobs
+350 teams
+KDD Cup 2013 - Author-Paper Identification Challenge (Track 1)
+KDD Cup 2013 - Author-Paper Identification Challenge (Track 1)
+
+Determine whether an author has written a given paper
+Featured6 years ago
+
+$7,500
+553 teams
+The ICML 2013 Bird Challenge
+The ICML 2013 Bird Challenge
+
+Identify bird species from continuous audio recordings
+Research6 years ago
+
+$500
+76 teams
+The ICML 2013 Whale Challenge - Right Whale Redux
+The ICML 2013 Whale Challenge - Right Whale Redux
+
+Develop recognition solutions to detect and classify right whales for BIG data mining and exploration studies
+Research6 years ago
+
+$500
+129 teams
+KDD Cup 2013 - Author Disambiguation Challenge (Track 2)
+KDD Cup 2013 - Author Disambiguation Challenge (Track 2)
+
+Identify which authors correspond to the same person
+Featured7 years ago
+
+$7,500
+237 teams
+Challenges in Representation Learning: Facial Expression Recognition Challenge
+Challenges in Representation Learning: Facial Expression Recognition Challenge
+
+Learn facial expressions from an image
+Research7 years ago
+
+$500
+56 teams
+Challenges in Representation Learning: The Black Box Learning Challenge
+Challenges in Representation Learning: The Black Box Learning Challenge
+
+Competitors train a classifier on a dataset that is not human readable, without knowledge of what the data consists of.
+Research7 years ago
+
+$500
+211 teams
+Challenges in Representation Learning: Multi-modal Learning
+Challenges in Representation Learning: Multi-modal Learning
+
+The multi-modal learning challenge
+Research7 years ago
+
+$500
+24 teams
+dunnhumby & hack/reduce Product Launch Challenge
+dunnhumby & hack/reduce Product Launch Challenge
+
+The success or failure of a new product launch is often evident within the first few weeks of sales. Can you predict a product's destiny?
+Featured7 years ago
+
+$5,000
+108 teams
+ICDAR2013 - Handwriting Stroke Recovery from Offline Data
+ICDAR2013 - Handwriting Stroke Recovery from Offline Data
+
+Predict the trajectory of a handwritten signature
+Research7 years ago
+
+$1,000
+40 teams
+Blue Book for Bulldozers
+Blue Book for Bulldozers
+
+Predict the auction sale price for a piece of heavy equipment to create a "blue book" for bulldozers.
+Featured7 years ago
+
+$10,000
+475 teams
+ICDAR2013 - Gender Prediction from Handwriting
+ICDAR2013 - Gender Prediction from Handwriting
+
+Predict if a handwritten document has been produced by a male or a female writer
+Research7 years ago
+
+$1,000
+189 teams
+Influencers in Social Networks
+Influencers in Social Networks
+
+Predict which people are influential in a social network
+Featured7 years ago
+
+$2,350
+132 teams
+The Marinexplore and Cornell University Whale Detection Challenge
+The Marinexplore and Cornell University Whale Detection Challenge
+
+Create an algorithm to detect North Atlantic right whale calls from audio recordings, prevent collisions with shipping traffic
+Featured7 years ago
+
+$10,000
+245 teams
+Heritage Health Prize
+Heritage Health Prize
+
+Identify patients who will be admitted to a hospital within the next year using historical claims data. (Enter by 06:59:59 UTC Oct 4 2012)
+Featured7 years ago
+
+$500,000
+1,351 teams
+Job Salary Prediction
+Job Salary Prediction
+
+Predict the salary of any UK job ad based on its contents
+Featured7 years ago
+
+$6,000
+289 teams
+Predicting Parkinson's Disease Progression with Smartphone Data
+Predicting Parkinson's Disease Progression with Smartphone Data
+
+Can we objectively measure the symptoms of Parkinson’s disease with a smartphone? We have the data to find out!
+Research7 years ago
+
+$10,000
+Just the Basics - Strata 2013 After-party
+Just the Basics - Strata 2013 After-party
+
+Live from Santa Clara, CA
+Getting Started7 years ago
+
+Knowledge
+48 teams
+Just the Basics - Strata 2013
+Just the Basics - Strata 2013
+
+Live from Santa Clara, CA - Core Data Science Skills with Kaggle’s Top Competitors
+Getting Started7 years ago
+
+Knowledge
+49 teams
+Event Recommendation Engine Challenge
+Event Recommendation Engine Challenge
+
+Predict what events our users will be interested in based on user actions, event metadata, and demographic information.
+Featured7 years ago
+
+$5,000
+223 teams
+Leaping Leaderboard Leapfrogs
+Leaping Leaderboard Leapfrogs
+
+Provide creative visualizations of the Kaggle leaderboard
+Research7 years ago
+
+$900
+Prescription Volume Prediction
+Prescription Volume Prediction
+
+Predict future prescription volume
+Masters7 years agoLimited
+
+USD
+12 teams
+Visualize the State of Public Education in Colorado
+Visualize the State of Public Education in Colorado
+
+Using 3 years of school grading data supplied by the Colorado Department of Education and R-Squared Research, visually uncover trends in the Colorado public school system.
+Research7 years ago
+
+$5,000
+Traveling Santa Problem
+Traveling Santa Problem
+
+Solve ye olde traveling salesman problem to help Santa Claus deliver his presents
+Featured7 years ago
+
+$3,000
+355 teams
+Observing Dark Worlds
+Observing Dark Worlds
+
+Can you find the Dark Matter that dominates our Universe? Winton Capital offers you the chance to unlock the secrets of dark worlds.
+Recruitment7 years ago
+
+$20,000
+353 teams
+Will I Stay or Will I Go?
+Will I Stay or Will I Go?
+
+Predict which of our current customers will stay insured with us for an entire policy term.
+Masters7 years agoLimited
+
+USD
+12 teams
+Facebook II - Mapping the Internet
+Facebook II - Mapping the Internet
+
+Round II of the Facebook Recruiting Competition.
+Recruitment7 years ago
+
+Jobs
+111 teams
+U.S. Census Return Rate Challenge
+U.S. Census Return Rate Challenge
+
+Predict census mail return rates.
+Featured7 years ago
+
+$25,000
+243 teams
+Predict Closed Questions on Stack Overflow
+Predict Closed Questions on Stack Overflow
+
+Predict which new questions asked on Stack Overflow will be closed
+Featured7 years ago
+
+$20,000
+161 teams
+Global Energy Forecasting Competition 2012 - Load Forecasting
+Global Energy Forecasting Competition 2012 - Load Forecasting
+
+A hierarchical load forecasting problem: backcasting and forecasting hourly loads (in kW) for a US utility with 20 zones.
+Research7 years ago
+
+$7,500
+103 teams
+Global Energy Forecasting Competition 2012 - Wind Forecasting
+Global Energy Forecasting Competition 2012 - Wind Forecasting
+
+A wind power forecasting problem: predicting hourly power generation up to 48 hours ahead at 7 wind farms
+Research7 years ago
+
+$7,500
+133 teams
+Merck Molecular Activity Challenge
+Merck Molecular Activity Challenge
+
+Help develop safe and effective medicines by predicting molecular activity.
+Featured7 years ago
+
+$40,000
+236 teams
+Data Mining Hackathon on BIG DATA (7GB) Best Buy mobile web site
+Data Mining Hackathon on BIG DATA (7GB) Best Buy mobile web site
+
+Predict which BestBuy product a mobile web visitor will be most interested in based on their search query or behavior over 2 years (7 GB).
+Research7 years ago
+
+$1,000
+24 teams
+Data Mining Hackathon on (20 mb) Best Buy mobile web site - ACM SF Bay Area Chapter
+Data Mining Hackathon on (20 mb) Best Buy mobile web site - ACM SF Bay Area Chapter
+
+Getting Started - Predict which Xbox game a visitor will be most interested in based on their search query. (20 MB)
+Research7 years ago
+
+$600
+96 teams
+CPROD1: Consumer PRODucts contest #1
+CPROD1: Consumer PRODucts contest #1
+
+Identify product mentions within a largely user-generated web-based corpus and disambiguate the mentions against a large product catalog.
+Research7 years ago
+
+$10,000
+29 teams
+Detecting Insults in Social Commentary
+Detecting Insults in Social Commentary
+
+Predict whether a comment posted during a public discussion is considered insulting to one of the participants.
+Recruitment7 years ago
+
+$10,000
+50 teams
+Raising Money to Fund an Organizational Mission
+Raising Money to Fund an Organizational Mission
+
+Help worthy organizations more efficiently target and recruit loyal donors to support their causes.
+Featured7 years ago
+
+$10,000
+27 teams
+CHALEARN Gesture Challenge 2
+CHALEARN Gesture Challenge 2
+
+Develop a Gesture Recognizer for Microsoft Kinect (TM)
+Research7 years ago
+
+$10,000
+30 teams
+Practice Fusion Diabetes Classification
+Practice Fusion Diabetes Classification
+
+Identify patients diagnosed with Type 2 Diabetes
+Research7 years ago
+
+$10,000
+146 teams
+EMC Israel Data Science Challenge
+EMC Israel Data Science Challenge
+
+Match source code files to the open source code project
+Research7 years ago
+
+$10,000
+86 teams
+Million Song Dataset Challenge
+Million Song Dataset Challenge
+
+Predict which songs a user will listen to.
+Research7 years ago
+
+Kudos
+150 teams
+EMI Music Data Science Hackathon - July 21st - 24 hours
+EMI Music Data Science Hackathon - July 21st - 24 hours
+
+Can you predict if a listener will love a new song?
+Featured7 years ago
+
+$10,000
+133 teams
+Facebook Recruiting Competition
+Facebook Recruiting Competition
+
+Show them your talent, not just your resume.
+Recruitment7 years ago
+
+Jobs
+418 teams
+Online Product Sales
+Online Product Sales
+
+Predict the online sales of a consumer product based on a data set of product features.
+Featured7 years ago
+
+$22,500
+363 teams
+Psychopathy Prediction Based on Twitter Usage
+Psychopathy Prediction Based on Twitter Usage
+
+Identify people who have a high degree of Psychopathy based on Twitter usage.
+Research7 years ago
+
+$1,000
+111 teams
+Personality Prediction Based on Twitter Stream
+Personality Prediction Based on Twitter Stream
+
+Identify the best performing model(s) to predict personality traits based on Twitter usage
+Research7 years ago
+
+$500
+89 teams
+Predicting a Biological Response
+Predicting a Biological Response
+
+Predict a biological response of molecules from their chemical properties
+Featured8 years ago
+
+$20,000
+699 teams
+KDD Cup 2012, Track 1
+KDD Cup 2012, Track 1
+
+Predict which users (or information sources) one user might follow in Tencent Weibo.
+Featured8 years ago
+
+$8,000
+657 teams
+KDD Cup 2012, Track 2
+KDD Cup 2012, Track 2
+
+Predict the click-through rate of ads given the query and user information.
+Featured8 years ago
+
+$8,000
+163 teams
+The Hewlett Foundation: Automated Essay Scoring
+The Hewlett Foundation: Automated Essay Scoring
+
+Develop an automated scoring algorithm for student-written essays.
+Featured8 years ago
+
+$100,000
+154 teams
+Benchmark Bond Trade Price Challenge
+Benchmark Bond Trade Price Challenge
+
+Develop models to accurately predict the trade price of a bond.
+Featured8 years ago
+
+$17,500
+263 teams
+EMC Data Science Global Hackathon (Air Quality Prediction)
+EMC Data Science Global Hackathon (Air Quality Prediction)
+
+Build a local early warning systems to accurately predict dangerous levels of air pollutants on an hourly basis.
+Featured8 years ago
+
+$7,030
+110 teams
+ICFHR 2012 - Arabic Writer Identification
+ICFHR 2012 - Arabic Writer Identification
+
+Identify which writer wrote which documents.
+Research8 years ago
+
+$1,000
+42 teams
+Eye Movements Verification and Identification Competition
+Eye Movements Verification and Identification Competition
+
+Determine how people may be identified based on their eye movement characteristic.
+Research8 years ago
+
+Kudos
+46 teams
+CHALEARN Gesture Challenge
+CHALEARN Gesture Challenge
+
+Develop a Gesture Recognizer for Microsoft Kinect (TM)
+Featured8 years ago
+
+$10,000
+47 teams
+What Do You Know?
+What Do You Know?
+
+Improve the state of the art in student evaluation by predicting whether a student will answer the next test question correctly.
+Featured8 years ago
+
+$5,000
+238 teams
+Getting Started
+Getting Started
+
+Create a forum for New Users
+Featured8 years ago
+
+$10,000
+Algorithmic Trading Challenge
+Algorithmic Trading Challenge
+
+Develop new models to accurately predict the market response to large trades.
+Featured8 years ago
+
+$10,000
+111 teams
+Don't Get Kicked!
+Don't Get Kicked!
+
+Predict if a car purchased at auction is a lemon
+Featured8 years ago
+
+$10,000
+570 teams
+Give Me Some Credit
+Give Me Some Credit
+
+Improve on the state of the art in credit scoring by predicting the probability that somebody will experience financial distress in the next two years.
+Featured8 years ago
+
+$5,000
+924 teams
+Photo Quality Prediction
+Photo Quality Prediction
+
+Given anonymized information on thousands of photo albums, predict whether a human evaluator would mark them as 'good'.
+Featured8 years ago
+
+$5,000
+200 teams
+Semi-Supervised Feature Learning
+Semi-Supervised Feature Learning
+
+There's been a lot of recent work done in unsupervised feature learning for classification and there are a ton of older methods that also work well. The purpose of this competition is to find out which of these methods work best on relatively large-scale high dimensional learning tasks.
+Featured8 years ago
+
+$500
+26 teams
+Allstate Claim Prediction Challenge
+Allstate Claim Prediction Challenge
+
+A key part of insurance is charging each customer the appropriate price for the risk they represent.
+Featured8 years ago
+
+$10,000
+102 teams
+dunnhumby's Shopper Challenge
+dunnhumby's Shopper Challenge
+
+Going grocery shopping, we all have to do it, some even enjoy it, but can you predict it? dunnhumby is looking to build a model to better predict when supermarket shoppers will next visit the store and how much they will spend.
+Featured8 years ago
+
+$10,000
+276 teams
+Wikipedia's Participation Challenge
+Wikipedia's Participation Challenge
+
+This competition challenges data-mining experts to build a predictive model that predicts the number of edits an editor will make five months from the end date of the training dataset.
+Featured8 years ago
+
+$10,000
+90 teams
+Mapping Dark Matter
+Mapping Dark Matter
+
+Measure the small distortion in galaxy images caused by dark matter
+Featured8 years ago
+
+$3,000
+70 teams
+Don't Overfit!
+Don't Overfit!
+
+With nearly as many variables as training cases, what are the best techniques to avoid disaster?
+Featured9 years ago
+
+$500
+259 teams
+Deloitte/FIDE Chess Rating Challenge
+Deloitte/FIDE Chess Rating Challenge
+
+This contest, sponsored by professional services firm Deloitte, will find the most accurate system to predict chess outcomes, and FIDE will also bring a top finisher to Athens to present their system
+Featured9 years ago
+
+$10,000
+181 teams
+ICDAR 2011 - Arabic Writer Identification
+ICDAR 2011 - Arabic Writer Identification
+
+This competition require participants to develop an algorithm to identify who wrote which documents. The winner will be honored at a special session of the ICDAR 2011 conference.
+Featured9 years ago
+
+$1,000
+30 teams
+Stay Alert! The Ford Challenge
+Stay Alert! The Ford Challenge
+
+Driving while not alert can be deadly. The objective is to design a classifier that will detect whether the driver is alert or not alert, employing data that are acquired while driving.
+Featured9 years ago
+
+$950
+176 teams
+Predict Grant Applications
+Predict Grant Applications
+
+This task requires participants to predict the outcome of grant applications for the University of Melbourne.
+Featured9 years ago
+
+$5,000
+204 teams
+RTA Freeway Travel Time Prediction
+RTA Freeway Travel Time Prediction
+
+This competition requires participants to predict travel time on Sydney's M4 freeway from past travel time observations.
+Featured9 years ago
+
+$10,000
+356 teams
+R Package Recommendation Engine
+R Package Recommendation Engine
+
+The aim of this competition is to develop a recommendation engine for R libraries (or packages). (R is opensource statistics software.)
+Featured9 years ago
+
+$150
+57 teams
+IJCNN Social Network Challenge
+IJCNN Social Network Challenge
+
+This competition requires participants to predict edges in an online social network. The winner will receive free registration and the opportunity to present their solution at IJCNN 2011.
+Featured9 years ago
+
+$950
+117 teams
+Tourism Forecasting Part Two
+Tourism Forecasting Part Two
+
+Part two requires competitors to predict 793 tourism-related time series. The winner of this competition will be invited to contribute a discussion paper to the International Journal of Forecasting.
+Featured9 years ago
+
+$500
+42 teams
+Chess ratings - Elo versus the Rest of the World
+Chess ratings - Elo versus the Rest of the World
+
+This competition aims to discover whether other approaches can predict the outcome of chess games more accurately than the workhorse Elo rating system.
+Featured9 years ago
+
+$617
+252 teams
+INFORMS Data Mining Contest 2010
+INFORMS Data Mining Contest 2010
+
+The goal of this contest is to predict short term movements in stock prices. The winners of this contest will be honoured of the INFORMS Annual Meeting in Austin-Texas (November 7-10).
+Featured9 years ago
+
+$0
+145 teams
+Tourism Forecasting Part One
+Tourism Forecasting Part One
+
+Part one requires competitors to predict 518 tourism-related time series. The winner of this competition will be invited to contribute a discussion paper to the International Journal of Forecasting.
+Featured9 years ago
+
+$500
+55 teams
+Predict HIV Progression
+Predict HIV Progression
+
+This contest requires competitors to predict the likelihood that an HIV patient's infection will become less severe, given a small dataset and limited clinical information.
+Featured9 years ago
+
+$500
+107 teams
+World Cup 2010 - Take on the Quants
+World Cup 2010 - Take on the Quants
+
+Quants at Goldman Sachs and JP Morgan have modeled the likely outcomes of the 2010 World Cup. Can you do better?
+Featured10 years ago
+
+$100
+World Cup 2010 - Confidence Challenge
+World Cup 2010 - Confidence Challenge
+
+The Confidence Challenge requires competitors to assign a level of confidence to their World Cup predictions.
+Featured10 years ago
+
+$100
+63 teams
+Forecast Eurovision Voting
+Forecast Eurovision Voting
+
+This competition requires contestants to forecast the voting for this year's Eurovision Song Contest in Norway on May 25th, 27th and 29th.
+Featured10 years ago
+
+$1,000
+22 teams
