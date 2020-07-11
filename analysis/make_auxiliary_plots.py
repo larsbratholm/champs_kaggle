@@ -88,7 +88,7 @@ def plot_progress_select_teams(df, filename):
 
     format_and_save(ax, filename)
 
-def format_and_save(ax, filename, clear=True, ylabel="Score", ylim=(-3.55,1)):
+def format_and_save(ax, filename, clear=True, ylabel="Score", ylim=(-3.6,1)):
     ax.set(xlabel='Submission date', ylabel=ylabel, ylim=ylim,
             xlim=(datetime.date(2019,5,29),datetime.date(2019,9,2)))
     ax.xaxis.set_major_formatter(DateFormatter("%d/%m/%y"))
@@ -155,12 +155,14 @@ def plot_exponential_fits(df, filename):
     def opt(params, t, y_true, fun):
         y = fun(params, t)
         return 1/y.size * sum((y-y_true)**2)
+
     def single(params, t):
         """
         Single exponential
         """
         A, a, C = params
         return A*np.exp(-a*t) + C
+
     def double(params, t):
         """
         Double exponential
@@ -168,21 +170,34 @@ def plot_exponential_fits(df, filename):
         A, a, C, B, b = params
         return A*np.exp(-a*t) + B*np.exp(-b*t) + C
 
+    def convert_df(df):
+        """
+        Converts the dates and values of the dataframe
+        to something more easily plotted
+        """
+        dates = df.axes[0]
+        x = (dates - datetime.datetime.utcfromtimestamp(0)).total_seconds().values
+        x -= x.min()
+        x /= (3600*24)
+        y = df.values
+        return x, y, dates
+
+
     best = df.min(1)
-    dates = best.axes[0]
-    x = (dates - datetime.datetime.utcfromtimestamp(0)).total_seconds().values
-    x -= x.min()
-    x /= (3600*24)
-    y = best.values
+    # Only keep changes in leaderboard
+    best_unique = best.drop_duplicates(keep="first")
+
+    x, y, dates = convert_df(best)
+    x_unique, y_unique, dates_unique = convert_df(best_unique)
 
     params0 = [3, 1, -3.5, 2, 0.02]
     bounds = [(0,None), (0,None), (None,None), (0,None), (0,None)]
-    params = scipy.optimize.minimize(opt, params0, args=(x, y, double),
+    params = scipy.optimize.minimize(opt, params0, args=(x_unique, y_unique, double),
             options={"maxiter":10000}, bounds=bounds, tol=1e-6, method='slsqp')
     assert params.success, params
     print("Fitted parameters", params.x)
     # Estimated from fit_leastsq of https://stackoverflow.com/a/21844726/2653663
-    print("Errors: [7.08584e-03, 3.62457e-03, 3.24547e-03, 2.33528e-03, 8.79903e-05]")
+    print("Errors: [0.17789, 0.10702, 0.28301, 0.21125, 0.00652]")
 
     plt.figure(figsize=(16,9))
     sns.lineplot(x=dates, y=y, color="k", label="Leader")
