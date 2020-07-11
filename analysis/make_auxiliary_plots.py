@@ -168,7 +168,7 @@ def plot_exponential_fits(df, filename):
         Double exponential
         """
         A, a, C, B, b = params
-        return A*np.exp(-a*t) + B*np.exp(-b*t) + C
+        return A*np.exp(-t/a) + B*np.exp(-t/b) + C
 
     def convert_df(df):
         """
@@ -182,7 +182,6 @@ def plot_exponential_fits(df, filename):
         y = df.values
         return x, y, dates
 
-
     best = df.min(1)
     # Only keep changes in leaderboard
     best_unique = best.drop_duplicates(keep="first")
@@ -190,14 +189,14 @@ def plot_exponential_fits(df, filename):
     x, y, dates = convert_df(best)
     x_unique, y_unique, dates_unique = convert_df(best_unique)
 
-    params0 = [3, 1, -3.5, 2, 0.02]
+    params0 = [3, 1, -3.5, 2, 50]
     bounds = [(0,None), (0,None), (None,None), (0,None), (0,None)]
     params = scipy.optimize.minimize(opt, params0, args=(x_unique, y_unique, double),
             options={"maxiter":10000}, bounds=bounds, tol=1e-6, method='slsqp')
     assert params.success, params
     print("Fitted parameters", params.x)
     # Estimated from fit_leastsq of https://stackoverflow.com/a/21844726/2653663
-    print("Errors: [0.17789, 0.10702, 0.28301, 0.21125, 0.00652]")
+    print("Errors: [0.178 ,  0.178,  0.288,  0.215, 16.6]")
 
     plt.figure(figsize=(16,9))
     sns.lineplot(x=dates, y=y, color="k", label="Leader")
