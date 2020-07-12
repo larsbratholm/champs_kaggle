@@ -165,8 +165,7 @@ def plot_submissions_per_day(df, filename):
     # Get submissions per day (ignore first day)
     df = df.resample('D').apply({'Score':'count'})[1:]
 
-    sns.lineplot(df.index, df.Score)
-    sns.scatterplot(df.index, df.Score, s=60, label="Submissions per day")
+    plt.plot(df.index, df.Score, "-o", markersize=8)
     format_and_save(plt.gca(), filename, ylabel="Count", ylim=None)
 
 def plot_exponential_fits(df, filename):
@@ -423,6 +422,7 @@ def plot_ensemble_vs_best(scores, ensemble_scores, filename):
 
     ax = plt.gca()
     ax.set(xlabel="Best ranked model in ensemble (k)", ylabel="Score")
+    plt.legend()
     plt.savefig(filename, pad_inches=0.0, bbox_inches="tight", dpi=300)
     plt.clf()
 
@@ -430,7 +430,7 @@ def plot_n_contrib_ensemble(n_contrib, filename):
     plt.figure(figsize=(16,5))
     x_grid = np.asarray([0,5,10,15,20,25,30,35,40,45,50,
         60, 70, 80, 90, 100, 150, 200, 250, 300]) + 1
-    plt.plot(x_grid, n_contrib, "o-", markersize=10)
+    plt.plot(x_grid, n_contrib, "o-", markersize=8)
 
     ax = plt.gca()
     ax.set(xlabel="Best ranked model in ensemble (k)", ylabel="Count")
