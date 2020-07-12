@@ -26,11 +26,14 @@ sns.set_color_codes("deep")
 def read_and_process_data(filename):
     df = pd.read_csv(filename)
     df['SubmissionDate'] = pd.to_datetime(df['SubmissionDate'])
+    # Needed to plot submissions per day
+    df_unfiltered = df.set_index(['SubmissionDate'])
+
     df = df.set_index(['TeamName','SubmissionDate'])['Score'].unstack(-1).T
     df.columns = [name for name in df.columns]
 
     df_filtered = df.ffill()
-    return df_filtered
+    return df_unfiltered, df_filtered
 
 def plot_progress_all_teams(df, public_kernels, filename, best_score=False):
     """
@@ -150,6 +153,19 @@ def plot_days_between_submissions(df, filename, truncate):
     #plt.yscale('log')
     plt.savefig(filename)
     plt.clf()
+
+def plot_submissions_per_day(df, filename):
+    plt.figure(figsize=(16,9))
+
+    # Remove dummy entries
+    df = df[2736:]
+
+    # Get submissions per day (ignore first day)
+    df = df.resample('D').apply({'Score':'count'})[1:]
+
+    sns.lineplot(df.index, df.Score)
+    sns.scatterplot(df.index, df.Score, s=60)
+    format_and_save(plt.gca(), filename, ylabel="Count", ylim=None)
 
 def plot_exponential_fits(df, filename):
     def opt(params, t, y_true, fun):
@@ -387,13 +403,14 @@ def make_progression_plots(script_dir):
     output_dir = f'{script_dir}/output/'
     data_dir = f'{script_dir}/data/'
     public_kernels = read_public_kernels(data_dir + 'public_kernels.csv')
-    df = read_and_process_data(data_dir + 'champs-scalar-coupling-publicleaderboard_with_dummies.csv')
+    df_unfiltered, df = read_and_process_data(data_dir + 'champs-scalar-coupling-publicleaderboard_with_dummies.csv')
     plot_days_between_submissions(df, output_dir + 'days_between_submissions.png', False)
     plot_days_between_submissions(df, output_dir + 'days_between_submissions_truncated.png', True)
     plot_exponential_fits(df, output_dir + 'exponential_fits.png')
     plot_number_of_teams(df, output_dir + 'number_of_teams.png')
     plot_progress_select_teams(df, output_dir + "progress_select_teams.png")
     plot_progress_all_teams(df, public_kernels, output_dir + "progress_all_teams.png")
+    plot_submissions_per_day(df_unfiltered, output_dir + "submissions_per_day.png")
 
 if __name__ == "__main__":
     # Get script location
