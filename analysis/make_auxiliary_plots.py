@@ -1,5 +1,7 @@
 """
-Code to plot the progression of the public leaderboard and how the number of teams relates to previous competitions.
+Code to plot the progression of the public leaderboard,
+how the number of teams relates to previous competitions,
+and how the fitted ensemble change with k (see paper).
 Partly based on https://www.kaggle.com/robikscube/the-race-to-predict-molecular-properties
 """
 
@@ -412,6 +414,38 @@ def make_progression_plots(script_dir):
     plot_progress_all_teams(df, public_kernels, output_dir + "progress_all_teams.png")
     plot_submissions_per_day(df_unfiltered, output_dir + "submissions_per_day.png")
 
+def plot_ensemble_vs_best(scores, ensemble_scores, filename):
+    plt.figure(figsize=(16,9))
+    x_grid = np.asarray([0,5,10,15,20,25,30,35,40,45,50, 
+        60, 70, 80, 90, 100, 150, 200, 250, 300]) + 1
+    plt.plot(x_grid, ensemble_scores, "o-", markersize=10, label='Ensemble')
+    plt.plot(x_grid, scores, "o-", markersize=10, label='Best')
+
+    ax = plt.gca()
+    ax.set(xlabel="Best ranked model in ensemble (k)", ylabel="Score")
+    plt.savefig(filename, pad_inches=0.0, bbox_inches="tight", dpi=300)
+    plt.clf()
+
+def plot_n_contrib_ensemble(n_contrib, filename):
+    plt.figure(figsize=(16,5))
+    x_grid = np.asarray([0,5,10,15,20,25,30,35,40,45,50,
+        60, 70, 80, 90, 100, 150, 200, 250, 300]) + 1
+    plt.plot(x_grid, n_contrib, "o-", markersize=10)
+
+    ax = plt.gca()
+    ax.set(xlabel="Best ranked model in ensemble (k)", ylabel="Count")
+    plt.savefig(filename, pad_inches=0.0, bbox_inches="tight", dpi=300)
+    plt.clf()
+
+def make_ensemble_plots(script_dir):
+    output_dir = f'{script_dir}/output/'
+    data_dir = f'{script_dir}/data/'
+    scores = np.loadtxt(data_dir + 'scores', dtype=float)
+    ensemble_scores = np.loadtxt(data_dir + 'ensemble_scores', dtype=float)
+    n_contrib = np.loadtxt(data_dir + 'n_contrib', dtype=int)
+    plot_ensemble_vs_best(scores, ensemble_scores, output_dir + "ensemble_vs_best.png")
+    plot_n_contrib_ensemble(n_contrib, output_dir + "n_contrib_ensemble.png")
+
 if __name__ == "__main__":
     # Get script location
     script_dir = os.path.abspath(os.path.dirname(__file__))
@@ -419,3 +453,5 @@ if __name__ == "__main__":
     make_teams_vs_prize_plot(script_dir)
     # Make plots related to progression of public leaderboard
     make_progression_plots(script_dir)
+    # Make plots related to fitted ensembles
+    make_ensemble_plots(script_dir)
