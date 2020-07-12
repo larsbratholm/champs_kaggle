@@ -155,7 +155,7 @@ def plot_days_between_submissions(df, filename, truncate):
     plt.clf()
 
 def plot_submissions_per_day(df, filename):
-    plt.figure(figsize=(16,9))
+    plt.figure(figsize=(16,5))
 
     # Remove dummy entries
     df = df[2736:]
