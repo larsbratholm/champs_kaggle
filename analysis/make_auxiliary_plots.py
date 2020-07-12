@@ -164,7 +164,7 @@ def plot_submissions_per_day(df, filename):
     df = df.resample('D').apply({'Score':'count'})[1:]
 
     sns.lineplot(df.index, df.Score)
-    sns.scatterplot(df.index, df.Score, s=60)
+    sns.scatterplot(df.index, df.Score, s=60, label="Submissions per day")
     format_and_save(plt.gca(), filename, ylabel="Count", ylim=None)
 
 def plot_exponential_fits(df, filename):
