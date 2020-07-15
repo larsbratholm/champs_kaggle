@@ -6,6 +6,7 @@ Partly based on https://www.kaggle.com/robikscube/the-race-to-predict-molecular-
 """
 
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter
 from matplotlib import rc
@@ -220,6 +221,14 @@ def plot_exponential_fits(df, filename):
     sns.lineplot(x=dates, y=y, color="k", label="Leader")
     sns.lineplot(x=[dates.min(), dates.max()], y=[-3.453]*2, label="Best ME")
     sns.lineplot(x=dates, y=double(params.x, x), label="Fit")
+    # Annotate plot with text and arrows. plt.annotate arrows behaves weirdly
+    # so split arrows and text into separate annotations
+    plt.annotate(r"$\tau_1 = 1.29$ days", xy=(0.21, 0.77), xycoords='figure fraction')
+    plt.annotate("", xy=(0.105, 0.7), xytext=(0.205, 0.78), xycoords='figure fraction',
+            arrowprops=dict(width=3, connectionstyle="arc3, rad=-0.2", color='k'))
+    plt.annotate(r"$\tau_2 = 50.0$ days", xy=(0.64, 0.48), xycoords='figure fraction')
+    plt.annotate("", xy=(0.79, 0.3), xytext=(0.73, 0.46), xycoords='figure fraction',
+            arrowprops=dict(width=3, connectionstyle="arc3, rad=-0.2", color='k'))
     # Set ylim and ax labels
     format_and_save(plt.gca(), filename)
 
