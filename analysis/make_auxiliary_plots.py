@@ -219,16 +219,9 @@ def plot_exponential_fits(df, filename):
     plt.figure(figsize=(16,9))
     sns.lineplot(x=dates, y=y, color="k", label="Leader")
     sns.lineplot(x=[dates.min(), dates.max()], y=[-3.453]*2, label="Best ME")
-    sns.lineplot(x=dates, y=single((params.x[[0,1,2]]), x), label="Component 1")
-    sns.lineplot(x=dates, y=single((params.x[[3,4,2]]), x), label="Component 2")
     sns.lineplot(x=dates, y=double(params.x, x), label="Fit")
-    # Reorder legend
-    ax = plt.gca()
-    handles, labels = ax.get_legend_handles_labels()
-    order = [0,1,4,2,3]
-    plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order])
     # Set ylim and ax labels
-    format_and_save(ax, filename)
+    format_and_save(plt.gca(), filename)
 
 def parse_kaggle_competitions(filename):
     with open(filename) as f:
